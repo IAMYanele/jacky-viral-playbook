@@ -1,0 +1,267 @@
+[
+ {
+  "name": "settings-walkthrough",
+  "definition": "Delivers value as literal in-app navigation \u2014 a sequence of taps, toggles, and menu paths the viewer executes on their own phone to unlock a hidden setting or platform feature. The steps ARE the button presses (not conceptual advice), usually framed as leaking a platform cheat code.",
+  "verbal_signals": [
+   "go to settings, then X, then tap Y",
+   "turn on / turn off / make sure all three are checked",
+   "cheat code / Instagram just gave you",
+   "you didn't even notice this setting",
+   "save it as a draft then duplicate it",
+   "all for free, do this every time"
+  ],
+  "example_sc": [
+   "DX0M0rOyEwI",
+   "DXo0c5bkn53",
+   "DXm0_9kkiS-",
+   "DVjDzE9Ekya",
+   "DY2C22yyHLk"
+  ]
+ },
+ {
+  "name": "numbered-howto-tutorial",
+  "definition": "A repeatable method or single tactic delivered as a concrete procedure the viewer can replicate \u2014 either an enumerated do-this-then-that list of steps/tips or one focused hack walked through start-to-finish. Distinguished from settings-walkthrough by not being in-app menu navigation, and from the reset-blueprint by having no counterfactual framing (just 'here's how').",
+  "verbal_signals": [
+   "Number one... Number two... Number three",
+   "here's how / what you're going to do is",
+   "all you have to do is",
+   "the perfect formula for X",
+   "explained in under 30 seconds",
+   "the fastest way to double your views with no extra effort"
+  ],
+  "example_sc": [
+   "DXMU-n7tGgR",
+   "DWTrZy8Oe_e",
+   "DXonKuqoMip",
+   "DXPlUuDDNTk",
+   "DWKE2OThq4g"
+  ]
+ },
+ {
+  "name": "hypothetical-reset-blueprint",
+  "definition": "Value framed as a first-person counterfactual \u2014 'if I had to start over / hit goal X from scratch, here's exactly what I'd do' \u2014 then delivered as conditional-mood ordered moves toward an ambitious end state. The 'if I were starting / if I had to' framing licensing an idealized roadmap is the signature.",
+  "verbal_signals": [
+   "If I had to go from zero to a million",
+   "if I wanted to / if I had to start over",
+   "here's exactly what I'd do",
+   "Step one I would... Step two I would",
+   "if I only had X minutes/days",
+   "if I had to implement this from scratch, this is exactly how"
+  ],
+  "example_sc": [
+   "DV3n5CvEjNQ",
+   "DWUYjHal4XN",
+   "DXEjuFijUm_",
+   "DX9Sj-HO89h"
+  ]
+ },
+ {
+  "name": "category-taxonomy-explainer",
+  "definition": "Teaches by laying out a fixed classification \u2014 N named types/categories of a thing \u2014 and explaining each one's role, often mapping types to outcomes (views/followers/leads). The spine is 'there are X types of Y: type 1 is..., type 2 is...', a conceptual catalog rather than sequential actions or scored items.",
+  "verbal_signals": [
+   "There are five main types of content",
+   "type number one is educational, number two storytelling",
+   "TOFU / MOFU / BOFU",
+   "six main types of educational posts",
+   "these are the different types of viral sound effects",
+   "recommended content types for this would be"
+  ],
+  "example_sc": [
+   "DVq-bkuAEPw",
+   "DXui_NmjJyY",
+   "DWOe5DnjLHF",
+   "DWcGejSBMij",
+   "DYE7J_YEzW5"
+  ]
+ },
+ {
+  "name": "toolkit-swipe-file-handout",
+  "definition": "Delivers a curated roster of copyable assets \u2014 named tools mapped to tasks, or plug-and-play templates/hooks/scripts the viewer can steal verbatim. The deliverable is the kit itself (tool-to-job pairings or template-then-example pairs), often capped with a comment-to-get-the-list CTA.",
+  "verbal_signals": [
+   "seven figure content toolkit",
+   "use these for research, use these for scripting",
+   "for writing Claude, for business advice Acquisition AI",
+   "steal these five viral hooks",
+   "the quickest way to X is by Y -> concrete example",
+   "I use [tool] to find viral outliers"
+  ],
+  "example_sc": [
+   "DWToQzSCVl2",
+   "DWbWZ8xBfJ3",
+   "DWrj3gUDwb-",
+   "DWL9BwjEri4",
+   "DX7X-AsiAZ1"
+  ]
+ },
+ {
+  "name": "tier-rating-rundown",
+  "definition": "Runs through a set of items and assigns each a snap verdict on a fixed scale \u2014 tier letters (S/A/F), numeric scores (1-10), or binary pass/cash, important/not-important \u2014 in a fast staccato sweep. The packaging is judgment-per-item across many items measured against a standard.",
+  "verbal_signals": [
+   "Hashtags F tier, editing C tier, hooks A tier",
+   "Pass / Cash",
+   "Not important. Important. Very important.",
+   "score out of 10 / it's a seven, a little saturated",
+   "X. Pass. Y. Cash.",
+   "rate each on a scale"
+  ],
+  "example_sc": [
+   "DXKltAWSvPb",
+   "DYdEfR1oCGg",
+   "DWws2behzma",
+   "DXCuWc2hvDb",
+   "DV87SeqDWxp"
+  ]
+ },
+ {
+  "name": "comparison-juxtaposition",
+  "definition": "Teaches by contrast \u2014 either pitting two named rivals against each other to name a winner/difference (A vs B, platform vs platform, tool vs tool) or showing graded paired exemplars side by side (bad/good/great, paid vs free, 100-view vs 1M-view, used-to-do vs now-do). The delivery is the parallel two-sided juxtaposition itself.",
+  "verbal_signals": [
+   "100 view hook vs 1 million view hook version",
+   "this is a bad hook, this is a good hook, this is a great hook",
+   "what's the difference between X and Y",
+   "Video A or Video B? still A",
+   "this one's paid, this one's free",
+   "I used to do X (wrong), now I do Y (right)"
+  ],
+  "example_sc": [
+   "DWerTC9B5Jv",
+   "DXUv41QBvkg",
+   "DWe48IlCZMt",
+   "DVwDhiAjtPZ",
+   "DXfEKHHDLDm"
+  ]
+ },
+ {
+  "name": "mechanism-explainer",
+  "definition": "Explains HOW a system works or WHY an outcome happens by laying out the underlying logic \u2014 algorithm rules, the contrasting mechanics of platform surfaces (stories vs carousels vs reels), the psychology that makes a tactic work \u2014 often ending in usage rules. Value is understanding a principle, not executing steps or rating items.",
+  "verbal_signals": [
+   "here's why / the reason is",
+   "Stories reach followers, Carousels go to X, Reels are shown to non-followers",
+   "what makes them work is",
+   "this basically means / so what's that",
+   "100k on TikTok is worth 10k on Instagram",
+   "post Stories X times a week, Carousels Y times"
+  ],
+  "example_sc": [
+   "DWBm-iAlZb4",
+   "DWTrZy8Oe_e",
+   "DWUCCNVjCYT",
+   "DWE72LsIGQy",
+   "DYE7J_YEzW5"
+  ]
+ },
+ {
+  "name": "myth-bust-directive",
+  "definition": "The payload is a correction or command: it either names a widely-held belief/common practice and overturns it with the 'real' truth ('everyone says X, actually Y'), or issues a blunt imperative rule ('stop doing X', 'never post until Y', 'you'll never go viral unless Z'). Low on step-detail \u2014 the value is the reversal or mandate itself.",
+  "verbal_signals": [
+   "everyone tells you X but no one shows you how",
+   "most creators think X, actually Y",
+   "stop using hooks like / never post until you fix",
+   "you will never go viral if you don't",
+   "delete your highlights if they look like this",
+   "the dumb creators do X, the smart creators do Y"
+  ],
+  "example_sc": [
+   "DY4or0eypyi",
+   "DWyiV2IDwFN",
+   "DXci7n2tu8x",
+   "DYx0HFvyITp",
+   "DY5rxTQSxLy"
+  ]
+ },
+ {
+  "name": "spoken-take-interview-rant",
+  "definition": "A first-person spoken-word monologue carrying the value as the expert's discursive take \u2014 either a podcast/interview clip answering a posed question with anecdote, or a self-driven rant/manifesto riffing on a broad belief or worldview. No on-screen steps, lists, or demos; the persuasive argument is the package.",
+  "verbal_signals": [
+   "What's the best investment you ever made?",
+   "Is school still relevant / is it still worth it to",
+   "Why are Gen Z kids so fragile?",
+   "I think the world's gotten / here's the deal",
+   "answer framed as 'I think...' with a personal story",
+   "interviewer interjections (Holy shit, that's a big idea)"
+  ],
+  "example_sc": [
+   "DY79fFqlGuI",
+   "DXP0E0ICisT",
+   "DYafyKdlJ77",
+   "DYPp13-jlol",
+   "DWT8wEvgvmk"
+  ]
+ },
+ {
+  "name": "dialogue-guessing-game",
+  "definition": "Value carried through a staged interactive rhythm: a two-voice scripted skit (curious sidekick + expert trading banter), or a gamified yes/no interrogation that probes attributes until a mystery answer (usually an AI tool) is revealed. The back-and-forth question-clue-reveal mechanic IS the packaging, distinct from a sincere interview.",
+  "verbal_signals": [
+   "Wait, stop. What? ... Okay, then what's next?",
+   "Isn't that right, Barry?",
+   "Do you talk to it? Does it create images? ... Grok. You got it.",
+   "Is it a large language model? No. ... Gemini.",
+   "yes/no rapid-fire clues ending in a name",
+   "two-person teaching banter"
+  ],
+  "example_sc": [
+   "DXAJmtDv3Er",
+   "DWcGejSBMij",
+   "DYpS9k-Dz6B",
+   "DYzmGKUiVzJ",
+   "DX7X-AsiAZ1"
+  ]
+ },
+ {
+  "name": "annotated-teardown-demo",
+  "definition": "Dissects existing on-screen content or screen real estate, alternating between showing a beat/zone and inserting an analytical label for why it works or where things go. Covers both line-by-line video teardowns (content fragment -> technique name) and spatial diagram demos (pointing at frame zones like the safe zone or hook placement). Teaches by annotated autopsy.",
+  "verbal_signals": [
+   "this creates an open loop / borrows interest",
+   "that's a micro commitment",
+   "negative power word combined with visual hook",
+   "this is your safe zone, this is the area to avoid",
+   "this is where the hook goes, this is where the caption goes",
+   "let me break down why this video works"
+  ],
+  "example_sc": [
+   "DY4zuG5SZj8",
+   "DZC6kiXi6AF",
+   "DV4TjIwklJo",
+   "DYRa7qQqtSc",
+   "DWo2hFFCb1y"
+  ]
+ },
+ {
+  "name": "personal-proof-case-study",
+  "definition": "A first-person narrative of a specific past experiment, struggle, or client result delivered as evidence \u2014 setup (I tried this / was stuck) -> turning point -> outcome and the transferable lesson. Value is carried by the before/after story arc and its receipts, not by a generic list or demo.",
+  "verbal_signals": [
+   "I tried X and here's what happened",
+   "I finally cracked meta ads / I've never successfully done this before",
+   "as soon as I added keywords my reels started",
+   "before that I was stuck at",
+   "I got this advice from Hermozi that worked",
+   "wanted to report back from someone who's posted thousands of videos"
+  ],
+  "example_sc": [
+   "DXonKuqoMip",
+   "DZAJPDcBx3S",
+   "DXfGjZQtIKE",
+   "DW4cKujD6C0",
+   "DWe48IlCZMt"
+  ]
+ },
+ {
+  "name": "offer-cta-promo",
+  "definition": "The reel's primary architecture is a pitch \u2014 it exists mainly to drive a comment/DM/keyword action for a free resource, lead magnet, or service, with teaching reduced to a teaser. The give-to-get conversion IS the substance, distinct from reels that merely append a CTA to real content.",
+  "verbal_signals": [
+   "comment X and I'll send it to you",
+   "comment SMM for more information",
+   "DM me the word / comment ready and I'll send the prompt",
+   "I made a free library / guide / prompt",
+   "we will research, script, edit, and upload for you",
+   "comment the word song and I'll send it"
+  ],
+  "example_sc": [
+   "DWBm-iAlZb4",
+   "DYM77_bSI0J",
+   "DWq2mazNwlP",
+   "DYuHqwkBCYi",
+   "DWToQzSCVl2"
+  ]
+ }
+]
