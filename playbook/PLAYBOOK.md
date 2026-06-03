@@ -28,23 +28,28 @@ brags reliably flop.
 
 ---
 
-## 2. Top Winning Patterns — ranked by *consistency*, not biggest hit
+## 2. Top Winning SPOKEN HOOKS — first 5 seconds, ranked by *consistency*
 
-> Ranked by win-rate + flop-rate across **all** reels that used the pattern (N), not by one viral example.
-> Full hook breakdown + every cited reel in `hooks.md`. (Win/Flop = vs each creator's own median.)
+> The hook = **what's spoken in the first ~5 seconds** (captions excluded). Ranked by win-rate + flop-rate
+> across all reels using it (N), not by one viral example. Full breakdown + every cited reel in `hooks.md`
+> and [`research/pattern-report-v4.md`](../research/pattern-report-v4.md). (Win/Flop = vs each creator's own median.)
 
-| Rank | Pattern | N | Creators | Win% | Flop% | Med mult | Why it's ranked here |
-|------|---------|---|----------|------|-------|----------|----------------------|
-| 1 | **Outcome + time-box** ("[result] in 30 days / under 30s") | 16 | 4 | **56%** | **6%** | 4.06× | Best win/flop ratio in the entire set; works across tiny & mid accounts |
-| 2 | **Save / "steal this" command** (+ a concrete fix) | 15 | 4 | 46% | 20% | 2.22× | Reliable; drives the save signal that boosts reach |
-| 3 | **Negative command + number** ("Never post until you fix these 5…") | 13 | 4 | 46% | 30% | 1.72× | The number nearly doubles a bare "Never/Stop" (28%→46%) |
-| 4 | **Rhetorical-question open** | 123 | **8** | 25% | 20% | 1.04× | Only pattern used by ALL 8 creators; the universal safe default |
-| 5 | **Comment-keyword CTA** (caption layer, not the hook) | 180 | 6 | 28% | 17% | 1.37× | Most-used mechanic; reliably net-positive at scale |
+| Rank | Spoken hook (0–5s) | N | Creators | Win% | Flop% | Med mult | Why it's ranked here |
+|------|--------------------|---|----------|------|-------|----------|----------------------|
+| 1 | **Outcome + time-box** ("[result] in 30 days / under 30s") | 13 | 4 | **69%** | **0%** | 6.65× | Best ratio in the set — zero flops; works on tiny & mid accounts |
+| 2 | **Rhetorical-question open** | 106 | **8** | 29% | 18% | 1.07× | Only hook used by ALL 8 creators; the universal safe default |
+| 3 | **Negative command** ("Never/Stop…") | 55 | 7 | 27% | 36% | 0.96× | Broad & high-ceiling, but **high flop** — needs a number |
+| 4 | **Numbered list** spoken ("5 things…") | 40 | 7 | 17% | 27% | 0.76× | Broad but below-average alone — items must be specific |
+| 5 | **Shock / profanity interrupt** | 20 | 5 | 40% | 40% | 0.85× | Volatile — wins and flops equally; brand-dependent |
 
-**⚠️ Promising but NOT proven** (don't mistake for the above): *Feature/update news* — 66% win but only
-N=11/3 creators & time-locked to IG releases. *"You'll never go viral if…"* — 83% win but it's essentially
-**one creator reposting one line** (proven for that line, not as a portable pattern). *Shock/profanity* —
-DOWNGRADED: **43% flop** across 48 reels; volatile, not reliable (it was over-ranked off one big hit).
+**⚠️ Promising but NOT proven** (high win-rate, small/narrow sample — don't treat as the above):
+*Feature-news* 72% win but N=11/3 creators & time-locked. *Neg-command+number* 55% win, N=9 (the fix for
+plain "Never"). *Strip-back reframe* 62% win, N=8 (half is one creator's one line). *A/B* 43% win but only
+2 creators. *"You'll never go viral if…"* 83% win but it's essentially **one creator reposting one line.**
+
+> **Not hooks:** **comment-keyword CTA** (N=180) is a *caption mechanic*, not a spoken hook — it rides on
+> top of a hook and is reported separately (it can't save a weak opener). **"Save/steal this"** is almost
+> always in the caption too (only N=2 spoken). Both were wrongly counted as hooks in earlier versions.
 
 ---
 

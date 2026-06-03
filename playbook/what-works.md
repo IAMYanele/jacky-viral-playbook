@@ -20,78 +20,79 @@ open flop even with a good caption — e.g. @sam.gaudet [DVmsSneEqPl](https://ww
 
 ---
 
-## Proven winning patterns (ranked by consistency, not by biggest hit)
+## Proven winning SPOKEN HOOKS (first 5s, ranked by consistency)
 
-| Rank | Pattern | N | Creators | Win% | Flop% | Median mult | Verdict |
-|------|---------|---|----------|------|-------|-------------|---------|
-| 1 | **Outcome + time-box** | 16 | 4 | 56% | 6% | 4.06× | **Most consistent winner in the dataset** |
-| 2 | **Save / "steal this" command** | 15 | 4 | 46% | 20% | 2.22× | Strong, reliable |
-| 3 | **Negative command + number** | 13 | 4 | 46% | 30% | 1.72× | Strong mechanism; smaller N |
-| 4 | **Rhetorical-question open** | 123 | 8 | 25% | 20% | 1.04× | Universal (all 8 creators), net-positive at scale |
-| 5 | **Comment-keyword CTA** (caption) | 180 | 6 | 28% | 17% | 1.37× | Most-used; reliably positive; it's a CTA layer |
-| 6 | **Numbered list** | 57 | 7 | 26% | 24% | 0.86× | Broad but average — items must be specific |
-| 7 | **A/B comparison** | 64 | 5 | 23% | 21% | 1.00× | Reliable-average, occasional big hits |
+*The hook = what's spoken in the first ~5 seconds. Captions excluded. Win/Flop vs each account's own median.*
 
-⚠️ **Promising but NOT proven** (don't over-rank these — small samples):
-- **Feature/update news** — 66% win but only N=11 / 3 creators, and time-sensitive. Test on real IG updates.
-- **"You'll never go viral if…"** — 83% win but it's essentially **one creator (@devinjatho) reposting one line**; proven for that line, not as a portable pattern.
+| Rank | Spoken hook (0–5s) | N | Creators | Win% | Flop% | Median mult | Verdict |
+|------|--------------------|---|----------|------|-------|-------------|---------|
+| 1 | **Outcome + time-box** | 13 | 4 | **69%** | **0%** | 6.65× | **Most consistent hook — zero flops** |
+| 2 | **Rhetorical-question open** | 106 | **8** | 29% | 18% | 1.07× | Universal — every creator, biggest sample |
+| 3 | **Negative command** ("Never/Stop…") | 55 | 7 | 27% | 36% | 0.96× | High ceiling but high flop — add a number |
+| 4 | **Numbered list** spoken | 40 | 7 | 17% | 27% | 0.76× | Broad but below-average alone |
+| 5 | **Shock/profanity interrupt** | 20 | 5 | 40% | 40% | 0.85× | Volatile — equal wins/flops |
+
+⚠️ **Promising but NOT proven** (small/narrow sample — don't over-rank): **Feature-news** 72% win, N=11/3cr,
+time-locked. **Neg-command+number** 55% win, N=9 (the fix for plain "Never"). **Strip-back reframe** 62% win,
+N=8 (half is one creator's one line). **A/B comparison** 43% win but only **2 creators**. **"You'll never go
+viral if…"** 83% win but it's essentially **one creator reposting one line.**
+
+> **Corrected from earlier versions:** "Save/steal this" and "comment-keyword CTA" are **caption mechanics,
+> not spoken hooks** — when measured on spoken-5s only, "save this" is N=2. See the CTA-layer note below.
 
 ---
 
-## Why each top pattern works (with evidence)
+## Why each top hook works (spoken-5s evidence)
 
 ### 1. Outcome + Time-Box — *the one to copy first*
-56% of its 16 reels beat 3× median; only 6% flopped — by far the best ratio. A concrete result + an explicit
-speed frame ("in under 30 seconds", "in the next 30 days") tells the viewer the payoff is fast and worth the watch.
-- Works on tiny accounts AND mid accounts: 220,761v @iamaayushswamy [DXPlUuDDNTk](https://www.instagram.com/reel/DXPlUuDDNTk/) · 133,638v @personalbrandlaunch [DX9Sj-HO89h](https://www.instagram.com/reel/DX9Sj-HO89h/) · 35,590v @realskytan [DYOLB7BCSC3](https://www.instagram.com/reel/DYOLB7BCSC3/).
+**N=13 · 69% win · 0% flop.** More than two-thirds of these spoken openers beat 3× median and **none
+flopped** — by far the best ratio. A concrete result + an explicit speed frame ("in under 30 seconds", "in
+the next 30 days"), said in the first 5 seconds.
+- Tiny & mid accounts: 220,761v @iamaayushswamy [DXPlUuDDNTk](https://www.instagram.com/reel/DXPlUuDDNTk/) — *"the fastest way to double your views with no extra effort."* · 35,590v @realskytan [DYOLB7BCSC3](https://www.instagram.com/reel/DYOLB7BCSC3/) · 133,638v @personalbrandlaunch [DX9Sj-HO89h](https://www.instagram.com/reel/DX9Sj-HO89h/).
 
-### 2. Save / "Steal This" Command
-46% win across 4 creators. A direct save/steal instruction tied to a concrete asset converts to the save
-signal that drives reach.
-- 1,278,571v @devinjatho [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/) · 768,857v @bhavinipanjwanii [DYRa7qQqtSc](https://www.instagram.com/reel/DYRa7qQqtSc/).
+### 2. Rhetorical-Question Open
+**N=106 · ALL 8 creators · 29% win · 18% flop.** The only hook every creator uses, on the largest sample —
+the safe default. Ask the exact question the viewer wants answered. Specificity separates the winners from
+the 18% flop tail (generic "want more views?" dies).
+- 2,153,990v @devinjatho [DY5rxTQSxLy](https://www.instagram.com/reel/DY5rxTQSxLy/) · 558,649v @personalbrandlaunch [DWE72LsIGQy](https://www.instagram.com/reel/DWE72LsIGQy/) · 156,928v @sam.gaudet [DXsI2HIDLys](https://www.instagram.com/reel/DXsI2HIDLys/) — *"What's the $50 to fix it rule?"*
 
-### 3. Negative Command + Number
-Attaching a number to a "Never/Stop" prohibition nearly **doubles** the win-rate of a bare negative command
-(28% → 46%). The number makes it finite and save-able.
-- 433,179–1,278,571v @devinjatho ([DX0MuRvSFV2](https://www.instagram.com/reel/DX0MuRvSFV2/), [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/)) · 21,370v @iamaayushswamy [DW5DTTQDHWX](https://www.instagram.com/reel/DW5DTTQDHWX/).
+### 3. Negative Command — and the fix
+**Bare "Never/Stop": N=55 · 27% win · 36% flop** (highest flop of the broad hooks). **Add a number and it
+jumps to 55% win** (neg-command+number, N=9) — the number makes it finite. Use the numbered version.
+- 1,278,571v @devinjatho [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/) — *"Never post until you fix these five settings."* · 21,370v @iamaayushswamy [DW5DTTQDHWX](https://www.instagram.com/reel/DW5DTTQDHWX/).
 
-### 4. Rhetorical-Question Open
-The only pattern used by **all 8 creators** — the safe default. Ask the exact question the viewer wants
-answered, then answer fast. Specificity separates winners from the 20% that flop.
-- 2,215,348v @sam.gaudet [DV3n5CvEjNQ](https://www.instagram.com/reel/DV3n5CvEjNQ/) · 427,550v @personalbrandlaunch [DWUYjHal4XN](https://www.instagram.com/reel/DWUYjHal4XN/) · 28,087v @iamaayushswamy [DXacxAyCalY](https://www.instagram.com/reel/DXacxAyCalY/).
-
-### 5. Comment-Keyword CTA (caption layer)
-180 reels, wins 1.6× as often as it flops. **Not a hook** — a CTA that rides on top of one. Put it in the
-caption + on-screen text, never burn the spoken open on it.
-- 4.69M @devinjatho [DXsJznEEsHp](https://www.instagram.com/reel/DXsJznEEsHp/) (strip-back spoken hook + "Comment GEAR" caption).
+### Caption layer (NOT a hook): Comment-Keyword CTA
+**N=180 · ~29% win.** This is the conversion mechanic, not the stop-scroll. It rides on top of a spoken hook
+— put it in the caption + on-screen text, never the spoken open. It **cannot save a weak hook** (@sam.gaudet
+"Comment 'hook'" on a flat opener → 153v [DVmsSneEqPl](https://www.instagram.com/reel/DVmsSneEqPl/)). The 4.69M reel pairs a strip-back *spoken* hook with a "Comment GEAR" *caption* [DXsJznEEsHp](https://www.instagram.com/reel/DXsJznEEsHp/).
 
 ---
 
 ## Technical specs (from the winners)
 | Spec | Recommendation | Basis |
 |------|---------------|-------|
-| Duration | 15–40s | Winner durations cluster here; time-box hooks explicitly promise speed |
-| Hook window | First 1–2 spoken seconds | The spoken open is the stop-scroll; don't waste it on the CTA |
-| Save prompt | Add to any tactical/list reel | Save-command pattern = 46% win |
-| Numbers | Attach to negative commands | 28%→46% win lift |
-| CTA | Comment-keyword in caption only | 180-reel proven layer; dies on weak hooks |
-| Share rate | Optimize for >1.5% | Cleanest cross-account signal; feature-news + outcome hooks lead |
+| Duration | 15–40s | Winner durations cluster here; time-box hooks promise speed |
+| Spoken hook window | First **5 seconds** | The spoken open is the stop-scroll; lead with the outcome/question |
+| Numbers | Attach to negative commands | Lifts spoken "Never/Stop" 27%→55% win |
+| CTA | Comment-keyword in **caption** only | Caption mechanic; dies on weak hooks; never in the spoken open |
+| Save prompt | In the caption / end of video | Drives saves, but it's a caption ask (only N=2 spoken) — not your opener |
+| Share rate | Optimize for >1.5% | Cleanest cross-account signal |
 
 ---
 
 ## Audience psychology (evidenced)
-This audience is **outcome-selfish and tactic-hungry.** Patterns that hand them a fast, specific lever for
-*their own* account win (outcome+timebox, save-this, never-do-X+number). Patterns about the *creator*
-(personal flex: 68% flop) or vague feelings (generic motivation: 5% win) fail. Every winning hook answers
-"what do I do differently on my next reel, and how fast?"
+This audience is **outcome-selfish and tactic-hungry.** Spoken hooks that promise a fast, specific result
+for *their own* account win (outcome+timebox 69%, rhetorical-question, never-do-X+number). Vague feelings
+(generic motivation) fail. Every winning hook answers, in the first 5 seconds, "what do I get and how fast?"
+(Note: *personal flex* fails hard too, but that signal is **caption-driven** — see `what-fails.md` — since
+the flex rarely appears in the spoken 5s.)
 
 ---
 
 ## Pipeline / data notes
-- ✅ 708/713 spoken transcripts (Whisper). 5 music-only excluded.
+- ✅ Hooks measured on the **first ~5s of spoken audio** (708 transcripts; 5 music-only excluded). Captions excluded from hook detection.
 - ⚠️ @iamaayushswamy partial (budget cap) + 2 low-median accounts → **share rate** is the safer signal there.
-- ❌ No comment-theme data (budget). Add `/postcomments/` when quota refreshes.
-- 🔁 Two near-duplicate winners inflate some single-creator patterns (e.g. devinjatho's repeated lines) —
-  counted honestly and flagged, not promoted to "universal."
+- ❌ No comment-theme data (budget).
+- 🔁 Single-creator repeats (e.g. devinjatho's repeated lines) are flagged "promising, not proven," not promoted to "universal."
 
-*All figures reproducible: `python research/pattern_analysis.py` (0 API calls).*
+*All figures reproducible: `python research/pattern_analysis_v4.py` (0 API calls).*
