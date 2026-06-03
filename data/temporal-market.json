@@ -1,0 +1,353 @@
+{
+ "date_range": [
+  "2026-03-06",
+  "2026-06-03"
+ ],
+ "temporal": [
+  {
+   "month": "2026-03",
+   "n": 198,
+   "median_views": 10219,
+   "win_rate": 0.126,
+   "median_shares": 39
+  },
+  {
+   "month": "2026-04",
+   "n": 226,
+   "median_views": 12703,
+   "win_rate": 0.235,
+   "median_shares": 60
+  },
+  {
+   "month": "2026-05",
+   "n": 261,
+   "median_views": 10248,
+   "win_rate": 0.299,
+   "median_shares": 43
+  },
+  {
+   "month": "2026-06",
+   "n": 22,
+   "median_views": 8723,
+   "win_rate": 0.409,
+   "median_shares": 25
+  }
+ ],
+ "format_trend": {
+  "offer-cta-promo": {
+   "by_month": {
+    "2026-03": 4,
+    "2026-04": 3,
+    "2026-05": 11,
+    "2026-06": 0
+   },
+   "early": 7,
+   "late": 11,
+   "direction": "rising"
+  },
+  "toolkit-swipe-file-handout": {
+   "by_month": {
+    "2026-03": 15,
+    "2026-04": 10,
+    "2026-05": 7,
+    "2026-06": 0
+   },
+   "early": 25,
+   "late": 7,
+   "direction": "cooling"
+  },
+  "tier-rating-rundown": {
+   "by_month": {
+    "2026-03": 9,
+    "2026-04": 9,
+    "2026-05": 16,
+    "2026-06": 3
+   },
+   "early": 18,
+   "late": 19,
+   "direction": "steady"
+  },
+  "spoken-take-interview-rant": {
+   "by_month": {
+    "2026-03": 28,
+    "2026-04": 52,
+    "2026-05": 54,
+    "2026-06": 2
+   },
+   "early": 80,
+   "late": 56,
+   "direction": "steady"
+  },
+  "comparison-juxtaposition": {
+   "by_month": {
+    "2026-03": 21,
+    "2026-04": 13,
+    "2026-05": 20,
+    "2026-06": 1
+   },
+   "early": 34,
+   "late": 21,
+   "direction": "cooling"
+  },
+  "numbered-howto-tutorial": {
+   "by_month": {
+    "2026-03": 43,
+    "2026-04": 36,
+    "2026-05": 41,
+    "2026-06": 1
+   },
+   "early": 79,
+   "late": 42,
+   "direction": "cooling"
+  },
+  "settings-walkthrough": {
+   "by_month": {
+    "2026-03": 6,
+    "2026-04": 9,
+    "2026-05": 11,
+    "2026-06": 0
+   },
+   "early": 15,
+   "late": 11,
+   "direction": "steady"
+  },
+  "annotated-teardown-demo": {
+   "by_month": {
+    "2026-03": 12,
+    "2026-04": 16,
+    "2026-05": 16,
+    "2026-06": 2
+   },
+   "early": 28,
+   "late": 18,
+   "direction": "cooling"
+  },
+  "myth-bust-directive": {
+   "by_month": {
+    "2026-03": 8,
+    "2026-04": 21,
+    "2026-05": 24,
+    "2026-06": 4
+   },
+   "early": 29,
+   "late": 28,
+   "direction": "steady"
+  },
+  "mechanism-explainer": {
+   "by_month": {
+    "2026-03": 22,
+    "2026-04": 19,
+    "2026-05": 25,
+    "2026-06": 4
+   },
+   "early": 41,
+   "late": 29,
+   "direction": "steady"
+  },
+  "personal-proof-case-study": {
+   "by_month": {
+    "2026-03": 8,
+    "2026-04": 19,
+    "2026-05": 15,
+    "2026-06": 1
+   },
+   "early": 27,
+   "late": 16,
+   "direction": "cooling"
+  },
+  "dialogue-guessing-game": {
+   "by_month": {
+    "2026-03": 1,
+    "2026-04": 2,
+    "2026-05": 2,
+    "2026-06": 0
+   },
+   "early": 3,
+   "late": 2,
+   "direction": "cooling"
+  },
+  "category-taxonomy-explainer": {
+   "by_month": {
+    "2026-03": 17,
+    "2026-04": 14,
+    "2026-05": 13,
+    "2026-06": 3
+   },
+   "early": 31,
+   "late": 16,
+   "direction": "cooling"
+  },
+  "hypothetical-reset-blueprint": {
+   "by_month": {
+    "2026-03": 4,
+    "2026-04": 3,
+    "2026-05": 6,
+    "2026-06": 1
+   },
+   "early": 7,
+   "late": 7,
+   "direction": "steady"
+  }
+ },
+ "creators": {
+  "alinamerkelcoach": {
+   "n": 64,
+   "median_views": 6116,
+   "max_views": 1338595,
+   "span_days": 79.1,
+   "cadence_per_week": 5.7,
+   "win_rate": 0.203,
+   "median_share_rate": 0.62
+  },
+  "bhavinipanjwanii": {
+   "n": 23,
+   "median_views": 13590,
+   "max_views": 768857,
+   "span_days": 75.0,
+   "cadence_per_week": 2.1,
+   "win_rate": 0.217,
+   "median_share_rate": 0.43
+  },
+  "devinjatho": {
+   "n": 37,
+   "median_views": 27318,
+   "max_views": 4686071,
+   "span_days": 87.4,
+   "cadence_per_week": 3.0,
+   "win_rate": 0.405,
+   "median_share_rate": 1.24
+  },
+  "iamaayushswamy": {
+   "n": 153,
+   "median_views": 265,
+   "max_views": 220761,
+   "span_days": 77.0,
+   "cadence_per_week": 13.9,
+   "win_rate": 0.451,
+   "median_share_rate": 0.0
+  },
+  "loganforsyth": {
+   "n": 90,
+   "median_views": 312,
+   "max_views": 39505,
+   "span_days": 39.0,
+   "cadence_per_week": 16.2,
+   "win_rate": 0.367,
+   "median_share_rate": 0.0
+  },
+  "personalbrandlaunch": {
+   "n": 144,
+   "median_views": 74025,
+   "max_views": 1720374,
+   "span_days": 89.0,
+   "cadence_per_week": 11.3,
+   "win_rate": 0.049,
+   "median_share_rate": 0.74
+  },
+  "realskytan": {
+   "n": 41,
+   "median_views": 11042,
+   "max_views": 42497,
+   "span_days": 79.5,
+   "cadence_per_week": 3.6,
+   "win_rate": 0.073,
+   "median_share_rate": 0.26
+  },
+  "sam.gaudet": {
+   "n": 155,
+   "median_views": 16243,
+   "max_views": 2215348,
+   "span_days": 88.9,
+   "cadence_per_week": 12.2,
+   "win_rate": 0.129,
+   "median_share_rate": 0.41
+  }
+ },
+ "saturation": {
+  "spoken-take-interview-rant": {
+   "n": 136,
+   "pct": 19.2,
+   "win_rate": 0.25,
+   "direction": "steady"
+  },
+  "numbered-howto-tutorial": {
+   "n": 121,
+   "pct": 17.1,
+   "win_rate": 0.182,
+   "direction": "cooling"
+  },
+  "mechanism-explainer": {
+   "n": 70,
+   "pct": 9.9,
+   "win_rate": 0.257,
+   "direction": "steady"
+  },
+  "myth-bust-directive": {
+   "n": 57,
+   "pct": 8.1,
+   "win_rate": 0.211,
+   "direction": "steady"
+  },
+  "comparison-juxtaposition": {
+   "n": 55,
+   "pct": 7.8,
+   "win_rate": 0.218,
+   "direction": "cooling"
+  },
+  "category-taxonomy-explainer": {
+   "n": 47,
+   "pct": 6.6,
+   "win_rate": 0.149,
+   "direction": "cooling"
+  },
+  "annotated-teardown-demo": {
+   "n": 46,
+   "pct": 6.5,
+   "win_rate": 0.196,
+   "direction": "cooling"
+  },
+  "personal-proof-case-study": {
+   "n": 43,
+   "pct": 6.1,
+   "win_rate": 0.093,
+   "direction": "cooling"
+  },
+  "tier-rating-rundown": {
+   "n": 37,
+   "pct": 5.2,
+   "win_rate": 0.27,
+   "direction": "steady"
+  },
+  "toolkit-swipe-file-handout": {
+   "n": 32,
+   "pct": 4.5,
+   "win_rate": 0.25,
+   "direction": "cooling"
+  },
+  "settings-walkthrough": {
+   "n": 26,
+   "pct": 3.7,
+   "win_rate": 0.538,
+   "direction": "steady"
+  },
+  "offer-cta-promo": {
+   "n": 18,
+   "pct": 2.5,
+   "win_rate": 0.278,
+   "direction": "rising"
+  },
+  "hypothetical-reset-blueprint": {
+   "n": 14,
+   "pct": 2.0,
+   "win_rate": 0.5,
+   "direction": "steady"
+  },
+  "dialogue-guessing-game": {
+   "n": 5,
+   "pct": 0.7,
+   "win_rate": 0.6,
+   "direction": "cooling"
+  }
+ },
+ "n_reels": 707
+}

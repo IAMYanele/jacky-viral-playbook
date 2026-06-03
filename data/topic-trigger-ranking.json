@@ -1,0 +1,226 @@
+{
+ "topic": [
+  {
+   "name": "profile-and-posting-setup",
+   "n": 17,
+   "creators": 4,
+   "win": 0.588,
+   "flop": 0.059,
+   "medv": 12498,
+   "medsh": 121,
+   "medsr": 0.74
+  },
+  {
+   "name": "ai-tools-and-commentary",
+   "n": 22,
+   "creators": 3,
+   "win": 0.364,
+   "flop": 0.182,
+   "medv": 44814,
+   "medsh": 272,
+   "medsr": 0.39
+  },
+  {
+   "name": "modeling-and-research",
+   "n": 36,
+   "creators": 6,
+   "win": 0.278,
+   "flop": 0.25,
+   "medv": 16433,
+   "medsh": 112,
+   "medsr": 0.47
+  },
+  {
+   "name": "monetization-and-clients",
+   "n": 26,
+   "creators": 7,
+   "win": 0.231,
+   "flop": 0.346,
+   "medv": 6022,
+   "medsh": 41,
+   "medsr": 0.56
+  },
+  {
+   "name": "niche-and-business-model-selection",
+   "n": 4,
+   "creators": 4,
+   "win": 0.75,
+   "flop": 0.0,
+   "medv": 66164,
+   "medsh": 198,
+   "medsr": 0.31
+  },
+  {
+   "name": "algorithm-reach-mechanics",
+   "n": 44,
+   "creators": 6,
+   "win": 0.5,
+   "flop": 0.318,
+   "medv": 12025,
+   "medsh": 85,
+   "medsr": 0.9
+  },
+  {
+   "name": "growth-and-virality",
+   "n": 54,
+   "creators": 6,
+   "win": 0.185,
+   "flop": 0.074,
+   "medv": 19711,
+   "medsh": 91,
+   "medsr": 0.41
+  },
+  {
+   "name": "personal-brand-and-positioning",
+   "n": 56,
+   "creators": 6,
+   "win": 0.232,
+   "flop": 0.268,
+   "medv": 16274,
+   "medsh": 52,
+   "medsr": 0.36
+  },
+  {
+   "name": "editing-and-production",
+   "n": 77,
+   "creators": 8,
+   "win": 0.234,
+   "flop": 0.312,
+   "medv": 6537,
+   "medsh": 42,
+   "medsr": 0.42
+  },
+  {
+   "name": "mindset-and-business-philosophy",
+   "n": 132,
+   "creators": 7,
+   "win": 0.227,
+   "flop": 0.174,
+   "medv": 1508,
+   "medsh": 2,
+   "medsr": 0.07
+  },
+  {
+   "name": "content-strategy-and-planning",
+   "n": 118,
+   "creators": 7,
+   "win": 0.186,
+   "flop": 0.263,
+   "medv": 16959,
+   "medsh": 134,
+   "medsr": 0.69
+  },
+  {
+   "name": "hooks-and-scripting",
+   "n": 121,
+   "creators": 8,
+   "win": 0.107,
+   "flop": 0.38,
+   "medv": 11986,
+   "medsh": 56,
+   "medsr": 0.47
+  }
+ ],
+ "trigger": [
+  {
+   "name": "platform-feature-fomo",
+   "n": 16,
+   "creators": 5,
+   "win": 0.438,
+   "flop": 0.188,
+   "medv": 5121,
+   "medsh": 56,
+   "medsr": 0.95
+  },
+  {
+   "name": "curiosity-open-loop",
+   "n": 35,
+   "creators": 7,
+   "win": 0.4,
+   "flop": 0.2,
+   "medv": 28087,
+   "medsh": 66,
+   "medsr": 0.27
+  },
+  {
+   "name": "aspiration-dream-result",
+   "n": 30,
+   "creators": 7,
+   "win": 0.2,
+   "flop": 0.233,
+   "medv": 12953,
+   "medsh": 32,
+   "medsr": 0.21
+  },
+  {
+   "name": "shortcut-greed-money",
+   "n": 29,
+   "creators": 6,
+   "win": 0.276,
+   "flop": 0.345,
+   "medv": 29903,
+   "medsh": 109,
+   "medsr": 0.57
+  },
+  {
+   "name": "controversy-hot-take",
+   "n": 66,
+   "creators": 7,
+   "win": 0.364,
+   "flop": 0.212,
+   "medv": 8809,
+   "medsh": 24,
+   "medsr": 0.27
+  },
+  {
+   "name": "hidden-lever-fix",
+   "n": 64,
+   "creators": 7,
+   "win": 0.266,
+   "flop": 0.234,
+   "medv": 11328,
+   "medsh": 78,
+   "medsr": 0.71
+  },
+  {
+   "name": "gated-resource-tool",
+   "n": 77,
+   "creators": 7,
+   "win": 0.195,
+   "flop": 0.273,
+   "medv": 20670,
+   "medsh": 188,
+   "medsr": 0.94
+  },
+  {
+   "name": "fear-of-mistake",
+   "n": 78,
+   "creators": 8,
+   "win": 0.269,
+   "flop": 0.423,
+   "medv": 2471,
+   "medsh": 12,
+   "medsr": 0.22
+  },
+  {
+   "name": "relatability-validation",
+   "n": 112,
+   "creators": 7,
+   "win": 0.107,
+   "flop": 0.188,
+   "medv": 1455,
+   "medsh": 2,
+   "medsr": 0.06
+  },
+  {
+   "name": "authority-formula-credibility",
+   "n": 200,
+   "creators": 7,
+   "win": 0.205,
+   "flop": 0.245,
+   "medv": 17012,
+   "medsh": 112,
+   "medsr": 0.58
+  }
+ ]
+}

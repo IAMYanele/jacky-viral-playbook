@@ -1,0 +1,121 @@
+[
+ {
+  "name": "platform-feature-fomo",
+  "definition": "A brand-new platform update, algorithm change, or native feature that just dropped \u2014 watch or be left behind while early movers capitalize. The hook is the novelty and recency of the feature itself, not a tool you go acquire.",
+  "signals": [
+   "Instagram just dropped the biggest cheat code",
+   "starting last week you can now",
+   "new update big creators are already using",
+   "you didn't even notice this new feature",
+   "the algorithm just changed and nobody's talking about it"
+  ]
+ },
+ {
+  "name": "fear-of-mistake",
+  "definition": "You are unknowingly doing it wrong and sabotaging your own results \u2014 stop or fix this before it costs you more. The driver is loss-aversion and shame, framed around an error the viewer is already making.",
+  "signals": [
+   "delete your highlights if they look like this",
+   "stop using hooks like this",
+   "this means your video sucks",
+   "you're doing way more harm than good",
+   "don't put anything here",
+   "the mistake killing your reach"
+  ]
+ },
+ {
+  "name": "hidden-lever-fix",
+  "definition": "A concrete setting, toggle, or repeatable action you can pull right now for an outsized, usually free result \u2014 agency over an outcome that felt out of your hands. Prescriptive and actionable ('do X'), distinct from a vague money promise.",
+  "signals": [
+   "never post until you fix these five settings",
+   "one simple setting doubles your views",
+   "go to settings then turn off",
+   "duplicate it as a trial reel",
+   "double the views all for free",
+   "do this every time before you post"
+  ]
+ },
+ {
+  "name": "shortcut-greed-money",
+  "definition": "A fast, almost-cheating path to money, growth, or virality \u2014 a disproportionate dream result for minimal effort, framed as a hack or cheat code. The driver is greed/ease, not a specific reproducible setting.",
+  "signals": [
+   "zero to a million dollars using AI",
+   "go from zero to a million followers in six months",
+   "pay for speed, it's a cheat code",
+   "make a fuck ton of money",
+   "got me millions of views for free",
+   "the lazy way to grow"
+  ]
+ },
+ {
+  "name": "gated-resource-tool",
+  "definition": "A specific tool, prompt, template, or resource insiders use that you don't have yet \u2014 access is gated behind a comment/DM/follow, manufacturing want through exclusivity and a clear acquisition step.",
+  "signals": [
+   "comment prompt and I'll send it",
+   "comment song for my library of 150 tracks",
+   "comment ready and I'll send you my exact prompt",
+   "I'll send you the template",
+   "what tool is this? grok / lovable / claude",
+   "link in bio to get the resource"
+  ]
+ },
+ {
+  "name": "curiosity-open-loop",
+  "definition": "An unresolved question, guessing game, A/B reveal, or withheld answer you must keep watching to close. The driver is pure information gap, not a promised outcome or opinion.",
+  "signals": [
+   "which video got more views, A or B?",
+   "sweet, but why?",
+   "what's the 50-to-fix-it rule?",
+   "guess the AI tool... you got it",
+   "the reveal at the end",
+   "wait for it"
+  ]
+ },
+ {
+  "name": "authority-formula-credibility",
+  "definition": "A definitive expert breakdown, system, ranking, or framework backed by proven results, framed as the insider truth ('the X types', 'the perfect formula'). The driver is credibility and structure, not novelty or controversy.",
+  "signals": [
+   "this got me over a million views",
+   "there are five main types of content",
+   "the perfect pin-post formula",
+   "the format that always goes viral is X",
+   "my clients and I do this",
+   "the seven main components"
+  ]
+ },
+ {
+  "name": "controversy-hot-take",
+  "definition": "A polarizing, contrarian claim that challenges consensus and pressures you to pick a side or react. The driver is disagreement and tribal reaction, signaled by a stated stance against a popular belief.",
+  "signals": [
+   "ChatGPT is dying a slow death",
+   "is university still worth it? no",
+   "hashtags are dead",
+   "dropshipping pass, automation cash",
+   "why are Gen Z kids so fragile",
+   "school is just consumption"
+  ]
+ },
+ {
+  "name": "aspiration-dream-result",
+  "definition": "Vividly painting the dream lifestyle or end-state you want, then positioning the content as the bridge to it. The driver is pull toward a desirable future identity, not loss, ease, or a specific tactic.",
+  "signals": [
+   "you're coming out the other end a weapon",
+   "creators are going to take over the world",
+   "go live in Bali",
+   "best shape of your life",
+   "go viral time and time again",
+   "growing your brand has never been easier"
+  ]
+ },
+ {
+  "name": "relatability-validation",
+  "definition": "Naming the viewer's exact struggle, identity, or inner monologue so they feel seen ('that's me'), prompting saves and shares through recognition. The driver is identification, not a fix, fear, or promise.",
+  "signals": [
+   "you say you don't have anything to post",
+   "I scroll for hours to find ideas",
+   "most creators run out of observations",
+   "building your brand solo and never posting",
+   "I don't know who needs to hear this",
+   "if you're a business owner, this is for you"
+  ]
+ }
+]

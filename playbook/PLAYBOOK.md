@@ -1,30 +1,28 @@
 # PLAYBOOK.md — Jacky (Content/Marketing for Business Owners)
-*Last updated: 2026-06-03 (v3 — systematic, evidence-ranked) | Master reference document*
+*Last updated: 2026-06-04 (v4 — 4-dimension analysis) | Master reference document*
 
-> ⚠️ **Data Caveat & Method:** Built from **712 reels across 8 creators**, last ~90 days
-> (@iamaayushswamy partial — scrape hit the API budget cap at 70 calls). **v3: every reel is classified
-> by its spoken hook (Whisper) + caption, and every pattern is ranked by how *consistently* it wins —
-> win-rate + flop-rate across a real sample — NOT by its single biggest hit.** A lone viral video does
-> not make a "proven" pattern; small-N patterns are flagged "promising, not proven." Winner/mid/flop is
-> judged vs **each creator's own median** (winner ≥3×, flop <0.5×). **Key insight the captions hid: the
-> spoken hook ≠ the caption on most winners** (caption = CTA layer, spoken open = the real stop-scroll).
-> Two low-median accounts inflate multipliers → **share rate** is the safer cross-account signal. No
-> comment-theme data (budget). **Full per-reel evidence for every claim:**
-> [`research/pattern-report.md`](../research/pattern-report.md) — reproducible via
-> `python research/pattern_analysis.py` (0 API calls).
+> ⚠️ **Method:** Built from **707 reels across 8 creators, ~90 days (2026-03-06 → 2026-06-03)**, each with
+> its full spoken transcript (Whisper). Every reel is classified on **four dimensions** — **spoken hook**
+> (first 5s), **packaging format** (how the info is delivered), **topic** (what it's about), **emotional
+> trigger** — and each is ranked by how **consistently it wins** (win-rate + low flop-rate + sample size),
+> **NOT by its single biggest hit.** Small-N patterns are flagged "promising, not proven." Winner/mid/flop
+> = vs **each creator's own median** (winner ≥3×, flop <0.5×); **share-rate** is the cleanest cross-account
+> signal (medians range ~280×). **The core finding: winning is a COMBINATION** — a proven hook × format ×
+> topic × trigger, not any one alone. Per-dimension detail + every cited reel: [`hooks.md`](hooks.md) ·
+> [`formats.md`](formats.md) · [`what-works.md`](what-works.md) · [`what-fails.md`](what-fails.md) ·
+> [`trends.md`](trends.md) · [`market-cycles.md`](market-cycles.md). Reproduce: scripts in `research/` (0 API calls).
 
 ---
 
 ## 1. Current State of the Market
 
-This is the **"grow your business with content / social-media-marketing education"** niche — creators
-teaching business owners how to get views, followers, and leads on Instagram. It is an **active,
-lead-gen-driven niche** where the content itself is a funnel: the best-performing posts don't just
-teach, they **trade a tactic for a comment** (the comment triggers an automated DM with a free
-resource). Median views vary wildly by account (265 to 74,025), but the *pattern* of what wins is
-remarkably consistent across all 8 creators: **specific, tactical, save-able Instagram/algorithm
-tips delivered fast, with a comment-to-DM call to action.** Generic motivation and personal-journey
-brags reliably flop.
+The **"grow your business with content / social-media-marketing education"** niche — creators teaching
+how to get views, followers, and leads on Instagram, with content-as-funnel (trade a tactic for a
+comment → automated DM). **The bar is rising:** the share of reels beating 3× their own median climbed
+12% → 23% → 29% → 40% across the window (see trends.md) — generic content has a shrinking window. What
+wins is **specific, tactical, shown-on-screen reach content** (settings/algorithm/profile); what loses
+is **abstract meta content** (hooks-about-hooks, mindset, "content strategy") delivered as **generic
+lists**. The most *common* content is the *weakest* (see §3).
 
 ---
 
@@ -53,91 +51,57 @@ plain "Never"). *Strip-back reframe* 62% win, N=8 (half is one creator's one lin
 
 ---
 
-## 3. Top 5 Anti-Patterns
+## 3. Proven Winning COMBINATIONS (the real playbook — full list in what-works.md)
 
-> Run every piece against this before posting.
+> No dimension wins alone — winners stack a proven hook × format × topic × trigger.
 
-| # | Anti-Pattern | Why It Kills Reach |
-|---|-------------|-------------------|
-| 1 | **Personal flex / journey brag** ("I make six figures at 26", "traveled to 43 countries") | @alinamerkelcoach's worst flops (190–510 views) vs her 1.3M tactical winner. Owners don't follow you for *your* life; they follow for *their* result. |
-| 2 | **Reposting the same winner too often** | @devinjatho's "Comment GEAR" hit 4.7M, but later re-posts of the same reel cratered (194–322 views). The algorithm and audience fatigue fast. |
-| 3 | **Generic motivation / mindset one-liners** ("stop consuming, start creating", "ready is a decision") | @devinjatho 194v, @loganforsyth flops. No tactic, no specificity, no reason to save. |
-| 4 | **Vague "Breaking news" with no concrete payoff** | @loganforsyth's repeated "Breaking:" posts flopped (0–3 views) when the news wasn't actionable for the viewer's own account. |
-| 5 | **Lead-magnet CTA on content nobody watched** | @sam.gaudet "Comment 'hook' for my hook bank" → 153 views. The CTA only works *after* the tip earns the watch; CTA-first with a weak hook dies. |
+| Win% | Flop% | N | The combination |
+|------|-------|---|-----------------|
+| **63%** | 21% | 19 | **algorithm/reach topic × settings-walkthrough format** — "fix these settings," shown on screen |
+| **67%** | 27% | 15 | **algorithm/reach topic × hidden-lever-fix trigger** |
+| **50%** | 30% | 10 | **personal-brand topic × myth-bust-directive** ("most creators do X, do Y") |
+| **53%** | 16% | 19 | **mindset topic × controversy hot-take** (high win but low reach — forwardable, not viral) |
 
----
+Anchor evidence: 1.28M @devinjatho [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/) · 629K [DXo0c5bkn53](https://www.instagram.com/reel/DXo0c5bkn53/) · 121K @iamaayushswamy [DWXjctoiQ-W](https://www.instagram.com/reel/DWXjctoiQ-W/).
 
-## 4. Optimal Technical Specs
+## 4. Best by dimension (each ranked by consistency)
 
-| Spec | Recommendation | Notes |
-|------|---------------|-------|
-| **Duration** | 15–40 seconds | Tactical tips and list formats; long enough to deliver the fix, short enough to rewatch. |
-| **Hook window** | First 1–2 seconds | Lead with the specific outcome or the number ("Fix these 5…", "Comment GEAR for…"). No throat-clearing. |
-| **On-screen text** | Always — bold tactic/number up top | Most winners pair a spoken/visual hook with large on-screen text stating the tactic. Save-able = readable. |
-| **CTA** | Comment-keyword → DM the resource | The dominant conversion mechanic in this niche. Put the keyword in caption AND on screen. |
-| **"Save this" prompt** | Add it to tactical posts | Saves correlate with reach here ("Save this before posting"). Explicitly ask. |
-| **Posting cadence** | Daily-ish, but **don't repost winners back-to-back** | Heavy posters (@sam.gaudet, @personalbrandlaunch) sustain reach; repost fatigue is real (see anti-pattern 2). |
-| **Production** | Low — talking head / screen-record | Creator + screen recording of the actual setting/tactic outperforms high production. The *information* is the product. |
+| Dimension | #1 | #2 | #3 |
+|-----------|----|----|----|
+| **Hook (0–5s)** | Outcome+time-box (69% win) | Rhetorical question (29%, all 8 creators) | Neg-command+number (55%) |
+| **Format** | Settings-walkthrough (53%) | Hypothetical-reset "if I started over" (50%) | Tier-rating-rundown (27%) |
+| **Topic** | Profile & posting setup (58%) | Algorithm/reach mechanics (50%) | AI tools & commentary (36%, highest reach) |
+| **Trigger** | Platform-feature FOMO (43%) | Curiosity/open-loop (40%) | Controversy hot-take (36%) |
 
----
+## 5. The killer ANTI-PATTERNS (measured — full list in what-fails.md)
 
-## 5. Emotional Playbook
+| Flop% | Win% | N | The losing stack |
+|-------|------|---|------------------|
+| **60%** | **0%** | 25 | **hooks-and-scripting topic × numbered-how-to list** — "5 hooks that always work" as a generic list |
+| **56%** | 0% | 14 | **hooks-and-scripting × myth-bust** with no demo |
+| **42%** | 26% | 78 | **fear-of-mistake trigger** ("you're doing it wrong") — anxiety with no fix |
+| — | 10% | 112 | **relatability-validation trigger** — feelings, no tactic, ~1,455 median views |
+| — | — | — | **spray-and-pray cadence** — @sam.gaudet 12/wk → 12% win vs @devinjatho 3/wk → 40% win |
 
-### ✅ Triggers That Work
+**The pattern:** abstract/meta topic + generic list/feelings = the easy, crowded default = reliable flop.
 
-| Trigger | How to Use It |
-|---------|--------------|
-| **Curiosity / open loop** | "Which video did better?" / "You'll never go viral if…" — withhold the answer to drive watch-through + comments. |
-| **Control / agency** | "Fix these 5 settings" — give owners a lever they can pull *today* on their own account. |
-| **FOMO / novelty** | "New IG update" — frame a feature as an edge they're missing right now. |
-| **Aspiration + specificity** | "5 steps to make $1M with AI" — big outcome anchored to a concrete, numbered path. |
-| **Reciprocity** | "Comment WORD and I'll send you…" — the free resource feels like a gift, lowering the ask of commenting. |
+## 6. The most common content is the WEAKEST (do the opposite of the crowd)
+- `mindset/philosophy` — 132 reels, **1,508 median views** (biggest topic, near-zero reach).
+- `hooks-and-scripting` — 121 reels, **10% win / 38% flop** (everyone teaches hooks; it rarely wins).
+- `numbered-how-to` format (121) + `interview-rant` format (136) — the two most common formats, both
+  below-average. **Under-served, higher-win lanes:** profile/posting setup, algorithm/reach, settings-walkthroughs.
 
-### ❌ Triggers to Avoid
+## 7. Trending vs. Dying (from real timestamps — trends.md)
 
-| Trigger | Why |
-|---------|-----|
-| **Self-aggrandizement** | Personal income/lifestyle flexes flop hard here — the audience is outcome-selfish. |
-| **Vague inspiration** | "Stop consuming, start creating" has no tactic to save or act on. |
-| **Manufactured urgency with no payoff** | "Breaking news" that doesn't change what the viewer should *do* gets ignored. |
-
-### Audience Psychology
-This audience is **business owners and aspiring creators who want results on their own account, fast.**
-They are tactic-hungry and skeptical of fluff. They reward content that hands them a **specific,
-implementable lever** (a setting, a prompt, a template, an update) and that makes the next step
-frictionless (comment a word, get the thing). They do **not** care about the creator's personal
-success unless it's immediately transferable to *them*. Every winning post answers "what do I do
-differently on my next reel?" — and offers to hand over the tool.
+| 🟢 Rising / Steady-and-strong | 🔴 Cooling / Dead |
+|-------------------------------|-------------------|
+| Rising win-rate niche-wide (12%→40%) | toolkit "comment-for-my-list" handouts (25→7, fastest drop) |
+| offer-cta-promo (only rising format) | numbered-how-to / category-list / comparison / teardown (list family broadly cooling) |
+| settings-walkthrough (steady + 53% win) | mindset/relatability content (high volume, low reach) |
+| "if I started over" reset-blueprints (steady, 50% win) | reposting winners unchanged; CTA-first weak hooks |
 
 ---
 
-## 6. Format Rankings
-
-| Tier | Format | Status |
-|------|--------|--------|
-| ⭐⭐⭐ **Top** | Lead-magnet tactical tip ("Comment WORD for the [list/prompt/template]") | Peak — dominates winners, but watch for keyword-CTA fatigue |
-| ⭐⭐⭐ **Top** | Numbered "Fix these N settings/things" + "Save this" | Rising — high save signal, evergreen |
-| ⭐⭐ **Strong** | IG feature / algorithm-update news | Rising — recurring big hits, time-sensitive |
-| ⭐⭐ **Strong** | A/B comparison / "which did better?" curiosity | Stable — reliable mid-to-high performer |
-| ⭐⭐ **Strong** | AI-tool / "make $X with AI" big-outcome how-to | Rising — rides the AI trend |
-| ⭐ **Weak** | Personal journey / income flex | Declining — consistent flop |
-| ⭐ **Weak/Dead** | Generic motivational one-liner | Dead for this niche |
-
----
-
-## 7. What's Trending vs. What's Dying
-
-| 🟢 Trending | 🔴 Dying |
-|------------|---------|
-| Comment-to-DM lead-magnet tips | Personal "I made $200k at 26" flexes |
-| "Fix these N settings" + Save this | Generic motivation ("ready is a decision") |
-| Instagram feature/update breakdowns | Reposting the same winning reel repeatedly |
-| AI tools / AI-money angles | Vague "Breaking news" with no actionable payoff |
-| A/B "which did better?" curiosity loops | CTA-first posts with weak hooks |
-| Numbered, specific, save-able tactics | Aspirational fluff with no tactic |
-
----
-
-*Next review trigger: re-scrape when budget refreshes (full 90d on @iamaayushswamy + @loganforsyth at
-higher page caps), or when a new pattern appears in 3+ creators. Upgrade EMERGING → CONFIRMED at 3+
-posts. Add comment-theme analysis if budget allows /postcomments/.*
+*Next review: re-scrape in ~30 days and re-run `research/temporal_market.py` to extend the trend lines;
+finish @iamaayushswamy's full 90d when API budget refreshes; add comment-theme analysis (/postcomments/)
+if budget allows. Every figure here is reproducible from `research/` (0 API calls).*

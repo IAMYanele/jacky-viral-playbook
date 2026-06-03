@@ -1,75 +1,79 @@
-# Market Cycles — Jacky Niche (Macro Viewership + Saturation)
+# Market Cycles — Jacky Niche (Baselines + Saturation + Cadence)
+*Last updated: 2026-06-04 (v4 — measured, per-creator)*
 
-**Niche:** Content / Marketing for Business Owners
-**Last Updated:** 2026-06-03
-*Caveat: single ~90-day snapshot (713 reels, 8 creators; @iamaayushswamy partial). This file is the
-baseline — cycle/lifecycle tracking needs repeat scrapes over time.*
-
----
-
-## Niche Viewership Baseline (per creator, last ~90d)
-
-| Creator | Reels | Median views | Top reel | ~Span | Read |
-|---------|-------|-------------|---------|-------|------|
-| @personalbrandlaunch | 144 | 74,025 | 1.72M | 89d | Largest, most consistent account |
-| @devinjatho | 37 | 27,318 | 4.69M | 87d | Lower volume, huge ceiling (lead magnets) |
-| @sam.gaudet | 156 | 16,243 | 2.22M | 90d | High volume, AI angle, big winners |
-| @bhavinipanjwanii | 23 | 13,590 | 769K | 75d | Low volume, high hit rate |
-| @realskytan | 41 | 11,042 | 42K | 79d | Compilation/creator-feature style, flat ceiling |
-| @alinamerkelcoach | 66 | 6,379 | 1.34M | 79d | Lead-magnet driven, big variance |
-| @loganforsyth | 93 | 302 | 40K | 39d | Very low base; heavy poster; many 0-view reels |
-| @iamaayushswamy | 153* | 265 | 221K | 77d | Very low base, huge multipliers; *partial scrape |
-
-*Median is **per-account**; absolute views are not comparable across creators (range ~280×). Use
-**share rate** and **multiple-of-own-median** for cross-account judgments.*
+Per-creator baselines, format saturation, and cadence economics from **707 reels over ~90 days
+(2026-03-06 → 2026-06-03)**. Reproduce: `python research/temporal_market.py` (0 API calls).
 
 ---
 
-## Format Lifecycle Tracker
-| Format | First seen (this window) | Current status |
-|--------|-------------------------|----------------|
-| Comment-keyword lead magnet | throughout | **Peak** — dominant, watch for fatigue |
-| Screen-record "fix these settings" | throughout | **Peak** |
-| AI-money / AI-tool how-to | throughout | **Rising** |
-| Feature/update breakdown | spikes on releases | **Rising / cyclical** |
-| A/B "which did better?" | throughout | **Stable** |
-| Personal-journey / income flex | throughout | **Declining** |
-| Generic motivation | throughout | **Dead** |
+## Per-creator baselines
+
+| Creator | Reels | Median views | Max | Cadence/wk | Win-rate | Share-rate |
+|---------|-------|--------------|-----|------------|----------|-----------|
+| @personalbrandlaunch | 144 | 74,025 | 1.72M | 11.3 | 4% | 0.74% |
+| @devinjatho | 37 | 27,318 | 4.69M | **3.0** | **40%** | 1.24% |
+| @sam.gaudet | 155 | 16,243 | 2.22M | 12.2 | 12% | 0.41% |
+| @bhavinipanjwanii | 23 | 13,590 | 769K | 2.1 | 21% | 0.43% |
+| @realskytan | 41 | 11,042 | 42K | 3.6 | 7% | 0.26% |
+| @alinamerkelcoach | 64 | 6,116 | 1.34M | 5.7 | 20% | 0.62% |
+| @loganforsyth | 90 | 312 | 40K | 16.2 | 36%* | 0.0% |
+| @iamaayushswamy | 153 | 265 | 221K | 13.9 | 45%* | 0.0% |
+
+\*Low-median accounts: high "win-rate" vs a tiny own-median is not the same as reach. Their wins are
+small in absolute views. Use **share-rate** and absolute views to compare across creators — medians
+range ~280× between accounts, so cross-account comparison must normalize.
 
 ---
 
-## Audience Attention Trends
-- Winning durations cluster **15–40s**; no evidence longer helps. Tactical density per second matters
-  more than length.
-- **Save-ability** is a core driver — posts that explicitly earn a save ("save this before posting")
-  over-index.
+## 💡 The cadence finding: quality beats spray-and-pray
+
+The data directly contradicts "post as much as possible":
+
+- **@devinjatho posts only ~3×/week and wins 40%** (median 27K views, top share-rate 1.24%). Low volume,
+  high hit-rate.
+- **@sam.gaudet (12/wk) and @personalbrandlaunch (11/wk) flood the feed and win 12% / 4%.** High volume,
+  low hit-rate — most of it underperforms their own (high) median.
+
+**Takeaway for Jacky:** fewer, better, tactical reels (the @devinjatho model) beat high-volume
+opinion/list content. Cadence is not the lever — hit-rate is.
 
 ---
 
-## Engagement Rate Trends (share rate = cleanest signal)
-- **Top tactical/lead-magnet posts: 2–3.4% share rate.** Treat **>1.5% as a strong winner** regardless
-  of raw views.
-- Big-view posts on low-median accounts (@iamaayushswamy 800×+ median) still only hit ~2% share — so
-  **share rate, not multiplier, is the trust metric** when medians are tiny.
+## Format lifecycle (share of volume, early → late half)
+
+| Format | Direction | Note |
+|--------|-----------|------|
+| offer-cta-promo | **Rising** | only rising format — monetization push |
+| settings-walkthrough | Steady | and it's the #1 win-rate format → durable edge |
+| hypothetical-reset-blueprint | Steady | 50% win, durable |
+| myth-bust / tier-rating / interview-rant | Steady | stable presence |
+| toolkit-swipe-file-handout | **Cooling** | 25→7, fatiguing fastest |
+| numbered-how-to / category / comparison / teardown / case-study | **Cooling** | the list/catalog family broadly declining |
 
 ---
 
-## Saturation Signals
-- **Comment-keyword CTA** is everywhere in this niche → **saturation risk**. Differentiation will come
-  from a *better tactic* and a *fresher resource*, not the mechanic itself.
-- **IG-optimization tips** (settings, algorithm) are a crowded lane — first-mover on new features is
-  the edge.
-- **Opportunity (under-served):** clean, genuinely novel tools (specific prompts, niche templates) and
-  fast, accurate breakdowns of brand-new platform features.
+## Engagement-rate baselines (use as your "is this good?" yardstick)
+- **Share-rate is the cleanest cross-account signal.** Niche-wide, **>1.5% share = a strong winner**
+  regardless of raw views. Top formats: settings-walkthrough (1.35%), offer-cta-promo (1.33%).
+- **Median shares** is a better quality read than views on low-median accounts (which can have 0 shares
+  on 200K-view reels — bot/loop views vs genuine forwards).
 
 ---
 
-## How to Use This File
-1. Re-scrape on a cadence (budget permitting) and append each creator's new median + top reel here.
-2. Move formats along the lifecycle (Rising → Peak → Declining) as the data shows.
-3. Watch the **share-rate baseline** — if niche-wide share rates fall, the audience is saturating and
-   it's time to change the mechanic, not just the topic.
+## Saturation map (where the opportunity is)
+| Crowded (avoid the easy default) | Under-served (the opening) |
+|----------------------------------|----------------------------|
+| mindset/philosophy (132 reels, 1.5K views) | algorithm/reach mechanics (50% win) |
+| hooks-and-scripting topic (121, 10% win) | profile & posting setup (58% win, only 17 reels) |
+| numbered-how-to / interview-rant formats | settings-walkthrough format (53% win) |
+| comment-keyword CTA (~25% of all reels) | "if I started over" reset-blueprints |
 
 ---
 
-*Next review: second scrape to establish month-over-month deltas. This is t=0.*
+## How to use this file
+1. **Benchmark a new reel** against its creator's median + the >1.5% share-rate bar.
+2. **Pick under-served lanes** (right column above) over the crowded defaults.
+3. **Don't chase cadence** — @devinjatho's 3/wk @ 40% win is the model, not 12/wk @ 4%.
+4. **Re-scrape in ~30 days** and re-run `temporal_market.py` to extend the lifecycle lines.
+
+*Numbers from `research/temporal-market.json` (0 API calls).*

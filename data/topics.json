@@ -1,0 +1,150 @@
+[
+ {
+  "name": "algorithm-reach-mechanics",
+  "definition": "How the platform's distribution system works and the in-app settings/levers that unlock reach, views, or audience quality. The subject is the algorithm or account/privacy settings themselves \u2014 not your profile shell (use profile-and-posting-setup) or your follower-count playbook (use growth-and-virality). Tie-break: if the reel is mainly 'change THIS setting / exploit THIS platform behavior to get more reach,' it belongs here.",
+  "signals": [
+   "fix these 5 settings",
+   "trial reel / trial reels",
+   "shadow banned / account status",
+   "cross-posting / views from Facebook",
+   "double the views for free",
+   "Instagram cheat code / new IG update",
+   "audience quality / non-followers",
+   "never turn on these privacy settings"
+  ]
+ },
+ {
+  "name": "hooks-and-scripting",
+  "definition": "Crafting the opening hook and the line-by-line script: written/verbal/visual hooks, weak-vs-viral hook comparisons, reusable hook templates, retention/script structure. The subject is the words and their framing. Tie-break: if the core teaching is 'say it like THIS in the first 3 seconds / structure your script this way,' it goes here, even if AI generates it.",
+  "signals": [
+   "bad hook vs good hook vs great hook",
+   "100 view hook vs 1 million view hook",
+   "written, verbal and visual hooks",
+   "this is a visual hook",
+   "viral hook templates / hook bank",
+   "power word / 5X rule",
+   "script your videos / script structure"
+  ]
+ },
+ {
+  "name": "editing-and-production",
+  "definition": "Physical production craft: editing/cutting, camera, lighting, background, sound design, captions, safe zones, music selection, and recording technique on camera. Equipment and edit execution. Tie-break: if the lesson is about HOW the video is shot, cut, lit, captioned, or scored, it goes here.",
+  "signals": [
+   "CapCut / split scenes",
+   "cuts per second / CPS",
+   "safe zone / captions / auto-captions",
+   "sound effects / background songs / trending audio",
+   "$6,000 camera vs iPhone / equipment list / GEAR",
+   "lighting / green-screen / background",
+   "recording process / be more natural on camera"
+  ]
+ },
+ {
+  "name": "content-strategy-and-planning",
+  "definition": "Deciding WHAT to post at a system level: content types and the value funnel (TOFU/MOFU/BOFU), formats, niche-to-format mapping, content pillars/series, and batch-planning a month of content. Higher-altitude than a single hook or edit. Tie-break: if it's about the mix/system of content rather than one video's hook, edit, or distribution, it goes here.",
+  "signals": [
+   "5 types of content you should post",
+   "educational / storytelling / authority content",
+   "TOFU MOFU BOFU / top middle bottom of funnel",
+   "what format goes most viral",
+   "month of content in 60 minutes / batching",
+   "content pillars / series / sub-niches"
+  ]
+ },
+ {
+  "name": "modeling-and-research",
+  "definition": "Finding, studying, and replicating what already works: locating viral outlier videos, transcribing/saving/organizing competitor content, and cloning a proven video's format/template onto your niche. Tools used purely to research or copy winners live here. Tie-break: if the action is 'find / study / steal / clone an existing winner,' it goes here rather than in strategy or growth.",
+  "signals": [
+   "find viral outlier videos",
+   "copy any video / clone the format",
+   "templatize the viral video / steal my template",
+   "save 100 videos over a million views / study their structures",
+   "scroll competitors' pages / Explorer page",
+   "sandcastles.ai / SortFeed / gettranscribe.ai / Milanote"
+  ]
+ },
+ {
+  "name": "ai-tools-and-commentary",
+  "definition": "AI itself as the subject: comparing or recommending specific tools/LLMs (Claude, ChatGPT, Gemini, Grok, Lovable, Codex), and opinion/risk/capability commentary about AI's impact. NOT the routine use of AI to write a hook or script (that goes to the relevant craft category). Tie-break: if the reel argues about WHICH AI or what AI MEANS, it goes here; if AI is just the tool executing a content task, classify by the task.",
+  "signals": [
+   "which AI tool / guess the AI tool",
+   "why I switched to Claude / ChatGPT is dying",
+   "Gemini / Grok / Lovable / Codex / Anthropic",
+   "AI will replace / AI is the future",
+   "5 steps to make $1M with AI",
+   "polyamorous with AIs / large language model"
+  ]
+ },
+ {
+  "name": "monetization-and-clients",
+  "definition": "Turning attention into money: getting clients/leads, offers, funnels, paid ads, lead magnets, VSLs, DM/comment-to-offer flows, sales scripts, and cold outbound. Tie-break: if the payoff is revenue, leads, or closing clients, it goes here even when AI, ads, or a viral video is the vehicle.",
+  "signals": [
+   "comment SMM / comment WORD to get",
+   "get clients / leads / one client today",
+   "meta ads / post ID ad / landing pages",
+   "mini VSL / lead magnet / sales script",
+   "cold outbound / story to turn followers into clients",
+   "zero to a million dollars"
+  ]
+ },
+ {
+  "name": "growth-and-virality",
+  "definition": "Playbooks for follower growth and getting/leveraging a viral video as an outcome: zero-to-X follower journeys, doubling down on a winner, cross-platform follower value, and posting volume as a growth lever. Tie-break: outcome is followers or a viral hit (the destination); if the reel teaches a specific edit, hook, setting, or research tactic (the method), classify there instead.",
+  "signals": [
+   "zero to a million followers / first viral video",
+   "slow growth vs fast growth posting schedule",
+   "double down on your viral video",
+   "100k TikTok = 10k IG = 1k YT",
+   "post 3x/day vs 3x/week / posting volume",
+   "views vs followers vs leads"
+  ]
+ },
+ {
+  "name": "profile-and-posting-setup",
+  "definition": "Optimizing the static profile shell and where/when content is placed: highlights, pinned posts, bio, keywords-as-text, and cadence/placement by format (stories vs carousels vs reels, how often). Tie-break: this is the profile container and schedule; the platform's distribution levers belong to algorithm-reach-mechanics, and the content mix belongs to content-strategy-and-planning.",
+  "signals": [
+   "delete your highlights / highlight structure",
+   "pin post formula / pinned videos",
+   "add keywords as text / hidden keywords",
+   "stories 3x week, reels 5x week / posting schedule",
+   "stories vs carousels vs reels",
+   "what to post where"
+  ]
+ },
+ {
+  "name": "personal-brand-and-positioning",
+  "definition": "Building a recognizable on-camera identity and authority: one consistent face, following-vs-brand, speaking presence as positioning (not recording mechanics), authority signals, and the team behind the brand. Tie-break: if the subject is WHO is on screen and their credibility/positioning, it goes here; if it's how to physically record/perform, use editing-and-production.",
+  "signals": [
+   "building a following vs personal brand",
+   "one consistent person / face of the brand",
+   "who's saying it / authority content",
+   "reviving your dead personal brand",
+   "your team / hire these roles",
+   "stop hiding your authenticity"
+  ]
+ },
+ {
+  "name": "niche-and-business-model-selection",
+  "definition": "Choosing or rating a niche or business/money-making model by viability: saturation, difficulty, opportunity, and cash-or-pass verdicts on niches or income paths. Tie-break: if the reel ranks/judges WHICH niche or business to pick, it goes here, even when AI or content is one of the options.",
+  "signals": [
+   "cash or pass / niche rating out of 10",
+   "saturated / harder to make interesting",
+   "real estate cash, drop shipping pass",
+   "best business model / which niche to pick",
+   "fitness 7 / psychology 8",
+   "boutique hotels is the future"
+  ]
+ },
+ {
+  "name": "mindset-and-business-philosophy",
+  "definition": "Entrepreneurial mindset and broad opinion content not tied to content mechanics: work ethic, leadership/decision-making, money/investing philosophy, life/education/parenting takes, podcast-style hot takes. Tie-break: the catch-all for opinion/identity content with no actionable content-marketing tactic; if a concrete posting, editing, hook, or monetization tactic is present, classify there.",
+  "signals": [
+   "don't go to university in 2026",
+   "hard times make strong men / Gen Z fragile",
+   "manager vs leader / praise the process not the win",
+   "$50 to fix it rule / pay for speed",
+   "best investment is a coach",
+   "real estate is how millionaires are made"
+  ]
+ }
+]
