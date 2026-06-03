@@ -1,15 +1,17 @@
 # PLAYBOOK.md — Jacky (Content/Marketing for Business Owners)
-*Last updated: 2026-06-03 (v2 — spoken transcripts) | Master reference document*
+*Last updated: 2026-06-03 (v3 — systematic, evidence-ranked) | Master reference document*
 
-> ⚠️ **Data Caveat:** Built from **713 reels across 8 creators**, last ~90 days (one account,
-> @iamaayushswamy, is partial — scrape hit the API budget cap at 70 calls). Classification is by
-> **each creator's own median views** (winner = ≥3× median, flop = <0.5× median), not follower ratio.
-> **v2: backed by 708 real spoken transcripts (OpenAI Whisper), not just captions** — so hook analysis
-> is now high-confidence. **Key insight the captions hid: the spoken hook ≠ the caption on most
-> winners** (caption = CTA, spoken open = the real stop-scroll — see hooks.md). Two accounts
-> (@loganforsyth, @iamaayushswamy) have very low medians (~300 views) inflating multipliers — lean on
-> the higher-view accounts (@personalbrandlaunch, @devinjatho, @sam.gaudet, @alinamerkelcoach) and on
-> **share rate** as the cleanest signal. **No comment-theme data** (budget). Directional, not gospel.
+> ⚠️ **Data Caveat & Method:** Built from **712 reels across 8 creators**, last ~90 days
+> (@iamaayushswamy partial — scrape hit the API budget cap at 70 calls). **v3: every reel is classified
+> by its spoken hook (Whisper) + caption, and every pattern is ranked by how *consistently* it wins —
+> win-rate + flop-rate across a real sample — NOT by its single biggest hit.** A lone viral video does
+> not make a "proven" pattern; small-N patterns are flagged "promising, not proven." Winner/mid/flop is
+> judged vs **each creator's own median** (winner ≥3×, flop <0.5×). **Key insight the captions hid: the
+> spoken hook ≠ the caption on most winners** (caption = CTA layer, spoken open = the real stop-scroll).
+> Two low-median accounts inflate multipliers → **share rate** is the safer cross-account signal. No
+> comment-theme data (budget). **Full per-reel evidence for every claim:**
+> [`research/pattern-report.md`](../research/pattern-report.md) — reproducible via
+> `python research/pattern_analysis.py` (0 API calls).
 
 ---
 
@@ -26,17 +28,23 @@ brags reliably flop.
 
 ---
 
-## 2. Top 5 Winning Patterns
+## 2. Top Winning Patterns — ranked by *consistency*, not biggest hit
 
-> Format + Hook + Trigger combos with confirmed performance signals across multiple creators.
+> Ranked by win-rate + flop-rate across **all** reels that used the pattern (N), not by one viral example.
+> Full hook breakdown + every cited reel in `hooks.md`. (Win/Flop = vs each creator's own median.)
 
-| # | Pattern | Example Creator | Views | Why It Works |
-|---|---------|----------------|-------|--------------|
-| 1 | **"Comment [WORD] for [resource]" lead-magnet tip** — tactical hook + keyword CTA | @devinjatho | 4.69M | Teaches a real fix, then trades the deeper resource for a comment. Comments spike reach AND build a DM list. The single most repeated winner in the dataset. |
-| 2 | **Numbered "Fix these N settings/things" tactical list** — specificity hook — control/fear trigger | @devinjatho | 1.28M | "Fix These 5 Settings ⚙️ Save this before posting." Concrete, finite, save-able. Promises more reach from a 2-minute change. |
-| 3 | **Big-number "how to" with AI/money angle** — outcome hook — aspiration trigger | @sam.gaudet | 2.22M | "5 steps to make $1M with AI." Round-number outcome + trending tool. Highest non-lead-magnet winner. |
-| 4 | **IG feature / algorithm-update news** — "Breaking/new update" hook — FOMO trigger | @iamaayushswamy | 121K | "Instagram dropped another massive new update ‼️." Owners fear missing an algorithm edge; novelty = urgency. |
-| 5 | **A/B + comparison curiosity** — "which did better?" hook — curiosity/loop trigger | @personalbrandlaunch | 559K | "Which video got more views — A or B?" Forces a guess (comment) and a watch-to-the-end reveal. |
+| Rank | Pattern | N | Creators | Win% | Flop% | Med mult | Why it's ranked here |
+|------|---------|---|----------|------|-------|----------|----------------------|
+| 1 | **Outcome + time-box** ("[result] in 30 days / under 30s") | 16 | 4 | **56%** | **6%** | 4.06× | Best win/flop ratio in the entire set; works across tiny & mid accounts |
+| 2 | **Save / "steal this" command** (+ a concrete fix) | 15 | 4 | 46% | 20% | 2.22× | Reliable; drives the save signal that boosts reach |
+| 3 | **Negative command + number** ("Never post until you fix these 5…") | 13 | 4 | 46% | 30% | 1.72× | The number nearly doubles a bare "Never/Stop" (28%→46%) |
+| 4 | **Rhetorical-question open** | 123 | **8** | 25% | 20% | 1.04× | Only pattern used by ALL 8 creators; the universal safe default |
+| 5 | **Comment-keyword CTA** (caption layer, not the hook) | 180 | 6 | 28% | 17% | 1.37× | Most-used mechanic; reliably net-positive at scale |
+
+**⚠️ Promising but NOT proven** (don't mistake for the above): *Feature/update news* — 66% win but only
+N=11/3 creators & time-locked to IG releases. *"You'll never go viral if…"* — 83% win but it's essentially
+**one creator reposting one line** (proven for that line, not as a portable pattern). *Shock/profanity* —
+DOWNGRADED: **43% flop** across 48 reels; volatile, not reliable (it was over-ranked off one big hit).
 
 ---
 

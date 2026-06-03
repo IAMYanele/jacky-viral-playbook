@@ -1,142 +1,97 @@
 # What Works — Jacky Niche Playbook
-*Last updated: 2026-06-03*
+*Last updated: 2026-06-03 (v3 — systematic, every pattern measured across all 712 reels)*
 
 ---
 
-## ⚠️ Data Limitations Notice
-713 reels across 8 creators, ~90-day window (@iamaayushswamy partial — budget cap at 70 API calls).
-Classification by each creator's own median (winner ≥3× median, flop <0.5×). **v2: now backed by 708
-real spoken transcripts (OpenAI Whisper)** — not captions. No comment data. Patterns confirmed across
-3+ creators are **CONFIRMED**; single-creator signals are **EMERGING**.
-
-## 🔑 v2 Headline — Spoken hook ≠ Caption
-The single most important finding from the audio: **on the large majority of winners, the spoken
-opening line is completely different from the caption.** The caption is the conversion mechanic
-("Comment GEAR"); the **spoken first 2 seconds** is the actual stop-scroll (a question, a shock, a
-strip-it-back reveal). Optimize them as two separate jobs:
-- **Spoken open** → pattern-interrupt hook (see hooks.md tiers).
-- **Caption + on-screen text** → keyword CTA to harvest the comment.
-Reels that put the CTA in the *spoken* open (and nothing intriguing) flop even with a strong caption.
+## How this is measured (so you can trust the ranking)
+Every one of **712 reels** (8 creators, ~90 days) was classified by its **spoken hook** (Whisper) +
+caption. A pattern only counts as **working** if it wins *consistently* — high win-rate, low flop-rate,
+across a real number of videos. A single viral reel does **not** make a pattern. Winner/mid/flop is judged
+vs **each account's own median** (winner ≥3×, flop <0.5×). Full per-reel evidence:
+[`research/pattern-report.md`](../research/pattern-report.md). Hook deep-dive: `hooks.md`.
 
 ---
 
-## Hooks
-
-### CONFIRMED (3+ creators)
-| Pattern | Creators | Example | Avg signal | Notes |
-|---------|----------|---------|-----------|-------|
-| **Comment-keyword lead magnet** | @devinjatho, @alinamerkelcoach, @personalbrandlaunch | "Comment GEAR for my equipment list" (4.69M) | Highest in dataset | The tactic earns the watch; the keyword earns the comment + DM lead. |
-| **Numbered tactical fix** | @devinjatho, @iamaayushswamy, @personalbrandlaunch | "Fix These 5 Settings ⚙️" (1.28M) | High | Finite, specific, save-able. |
-| **Curiosity / open loop** | @sam.gaudet, @devinjatho, @personalbrandlaunch | "You Will Never Go Viral If…" (2.15M) | High | Withholds the answer → watch-through + comments. |
-| **Feature/algorithm news** | @iamaayushswamy, @devinjatho, @loganforsyth | "New IG Update: Clickable Links" (521K) | High | Novelty + FOMO. Time-sensitive. |
-
-**Observation:** Every confirmed hook is *specific and tactical*. The audience rewards "here's the
-exact lever" over "here's how to think about it."
-
-### EMERGING (<3 creators)
-| Pattern | Creator | Example | Views | Notes |
-|---------|---------|---------|-------|-------|
-| **Big-number AI outcome** | @sam.gaudet | "5 steps to make $1M with AI" | 2.22M | Round number + trending tool. |
-| **A/B comparison** | @personalbrandlaunch | "Which video got more views, A or B?" | 559K | Guess = comment; reveal = retention. |
-| **"Steal/Save this template"** | @alinamerkelcoach, @bhavinipanjwanii | "Save this video so you never make that mistake again" (769K) | High | Direct save command + loss-avoidance. |
-
-### Spoken-hook patterns (v2 — from Whisper audio)
-| Spoken Pattern | Tier | Proven spoken open | Views/Share |
-|----------------|------|--------------------|-------------|
-| **Rhetorical-question / self-interview** | S | *"If I wanted to go from 0 to $1M using AI, what should I do? First off…"* (@sam.gaudet) | 2.22M / 1.91% |
-| **Negative command + number** | S | *"Never post on Instagram until you fix these five settings…"* (@devinjatho) | 1.28M / 2.75% |
-| **Shock / profanity interrupt** | A | *"Instagram just slapped their dick on the table with this new update…"* (@devinjatho) | 521K / **3.44% (top share)** |
-| **Strip-it-back reveal** | A | *"If I take off all my clothes, remove this luxurious background…"* (@devinjatho) | 4.69M |
-| **Outcome + time box** | A | *"The fastest way to double your views… explained in under 30 seconds."* (@iamaayushswamy) | 221K / 2.11% |
-
-**Observation:** the highest **share rates** (the cleanest virality signal) come from **shock/profanity
-interrupts on feature-news** (3.21–3.44%) — but those are voice/brand dependent. The most *transferable*
-S-tier is the **rhetorical-question open**, which carries @sam.gaudet's and @personalbrandlaunch's
-biggest hits and fits any voice.
+## 🔑 Headline: spoken hook ≠ caption
+On the large majority of winners, the **spoken opening line is different from the caption.** The caption is
+the conversion mechanic (comment-keyword); the **spoken first 2 seconds** is the real stop-scroll. Build
+them as two jobs — strong spoken hook + keyword CTA in the caption. (Reels that put the CTA in the *spoken*
+open flop even with a good caption — e.g. @sam.gaudet [DVmsSneEqPl](https://www.instagram.com/reel/DVmsSneEqPl/), 153v.)
 
 ---
 
-## Formats
+## Proven winning patterns (ranked by consistency, not by biggest hit)
 
-### CONFIRMED
-| Format | Creators | Avg signal | Share signal | Notes |
-|--------|----------|-----------|-------------|-------|
-| **Screen-record tactical walkthrough** | @devinjatho, @personalbrandlaunch, @iamaayushswamy | High | 0.3–3.4% | Show the actual setting/feature on screen while narrating. |
-| **Talking head + bold on-screen tactic** | @sam.gaudet, @alinamerkelcoach | High | 0.8–3.2% | Creator on cam, big text states the tip. |
-| **List / "N things" carousel-style reel** | @personalbrandlaunch, @devinjatho | Mid-High | ~1–3% | "5 types of content you should post." |
+| Rank | Pattern | N | Creators | Win% | Flop% | Median mult | Verdict |
+|------|---------|---|----------|------|-------|-------------|---------|
+| 1 | **Outcome + time-box** | 16 | 4 | 56% | 6% | 4.06× | **Most consistent winner in the dataset** |
+| 2 | **Save / "steal this" command** | 15 | 4 | 46% | 20% | 2.22× | Strong, reliable |
+| 3 | **Negative command + number** | 13 | 4 | 46% | 30% | 1.72× | Strong mechanism; smaller N |
+| 4 | **Rhetorical-question open** | 123 | 8 | 25% | 20% | 1.04× | Universal (all 8 creators), net-positive at scale |
+| 5 | **Comment-keyword CTA** (caption) | 180 | 6 | 28% | 17% | 1.37× | Most-used; reliably positive; it's a CTA layer |
+| 6 | **Numbered list** | 57 | 7 | 26% | 24% | 0.86× | Broad but average — items must be specific |
+| 7 | **A/B comparison** | 64 | 5 | 23% | 21% | 1.00× | Reliable-average, occasional big hits |
 
-**Observation:** Highest **share rates** (the cleanest virality signal — shares/views) cluster around
-**3%** on tactical lead-magnet posts (@devinjatho 3.44%, 3.21%; @alinamerkelcoach 3.15%; @personalbrandlaunch 2.91%). Share rate, not raw views, is the metric to optimize given the mixed view scales.
-
----
-
-## Triggers
-
-### CONFIRMED
-| Trigger | Creators | Notes |
-|---------|----------|-------|
-| **Curiosity/open loop** | @sam.gaudet, @devinjatho, @personalbrandlaunch | Strongest watch-through driver. |
-| **Control/agency** | @devinjatho, @iamaayushswamy | "You can fix this on your own account right now." |
-| **Reciprocity (free resource)** | @devinjatho, @alinamerkelcoach | The DM gift lowers the cost of commenting. |
-| **FOMO/novelty** | @iamaayushswamy, @devinjatho | Algorithm-update content. |
+⚠️ **Promising but NOT proven** (don't over-rank these — small samples):
+- **Feature/update news** — 66% win but only N=11 / 3 creators, and time-sensitive. Test on real IG updates.
+- **"You'll never go viral if…"** — 83% win but it's essentially **one creator (@devinjatho) reposting one line**; proven for that line, not as a portable pattern.
 
 ---
 
-## Technical Specs
+## Why each top pattern works (with evidence)
 
-### Duration
-Winners skew 15–40s — enough to deliver one tactic, short enough to rewatch. No evidence longer = better.
+### 1. Outcome + Time-Box — *the one to copy first*
+56% of its 16 reels beat 3× median; only 6% flopped — by far the best ratio. A concrete result + an explicit
+speed frame ("in under 30 seconds", "in the next 30 days") tells the viewer the payoff is fast and worth the watch.
+- Works on tiny accounts AND mid accounts: 220,761v @iamaayushswamy [DXPlUuDDNTk](https://www.instagram.com/reel/DXPlUuDDNTk/) · 133,638v @personalbrandlaunch [DX9Sj-HO89h](https://www.instagram.com/reel/DX9Sj-HO89h/) · 35,590v @realskytan [DYOLB7BCSC3](https://www.instagram.com/reel/DYOLB7BCSC3/).
 
-### View-to-Median Ratios (classification)
-| Class | Rule | Example |
-|-------|------|---------|
-| Winner | ≥3× the creator's median | @personalbrandlaunch 1.72M vs 74K median (23×) |
-| Mid | 0.5×–3× median | — |
-| Flop | <0.5× median | @alinamerkelcoach 190v vs 6,379 median |
+### 2. Save / "Steal This" Command
+46% win across 4 creators. A direct save/steal instruction tied to a concrete asset converts to the save
+signal that drives reach.
+- 1,278,571v @devinjatho [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/) · 768,857v @bhavinipanjwanii [DYRa7qQqtSc](https://www.instagram.com/reel/DYRa7qQqtSc/).
 
-### Share Ratios (cleanest signal)
-Top tactical posts hit **2–3.4% share rate**. Treat **>1.5% share rate as a strong winner**, regardless of raw view count.
+### 3. Negative Command + Number
+Attaching a number to a "Never/Stop" prohibition nearly **doubles** the win-rate of a bare negative command
+(28% → 46%). The number makes it finite and save-able.
+- 433,179–1,278,571v @devinjatho ([DX0MuRvSFV2](https://www.instagram.com/reel/DX0MuRvSFV2/), [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/)) · 21,370v @iamaayushswamy [DW5DTTQDHWX](https://www.instagram.com/reel/DW5DTTQDHWX/).
 
----
+### 4. Rhetorical-Question Open
+The only pattern used by **all 8 creators** — the safe default. Ask the exact question the viewer wants
+answered, then answer fast. Specificity separates winners from the 20% that flop.
+- 2,215,348v @sam.gaudet [DV3n5CvEjNQ](https://www.instagram.com/reel/DV3n5CvEjNQ/) · 427,550v @personalbrandlaunch [DWUYjHal4XN](https://www.instagram.com/reel/DWUYjHal4XN/) · 28,087v @iamaayushswamy [DXacxAyCalY](https://www.instagram.com/reel/DXacxAyCalY/).
 
-## Audience Psychology
-
-### CONFIRMED
-1. **Outcome-selfish** — they act on "what improves *my* account," not the creator's story (date: 2026-06-03).
-2. **Tactic-hungry** — specific levers (settings, prompts, templates, updates) beat philosophy every time.
-3. **Friction-averse on CTA** — "comment one word, get the thing" converts; multi-step asks don't.
-
----
-
-## Flop Patterns
-
-### Confirmed Flops
-| Creator | Views | Pattern | Lesson |
-|---------|-------|---------|--------|
-| @alinamerkelcoach | 190 | "I make six figures at 26" personal flex | Audience doesn't reward your success, only their transferable result. |
-| @devinjatho | 194 | "stop consuming, start creating" motivation | No tactic = no save = no reach. |
-| @devinjatho | 194–322 | Reposted "Comment GEAR" winner | Repost fatigue — don't recycle a winner back-to-back. |
-| @sam.gaudet | 153 | "Comment 'hook' for my hook bank" | CTA-first with a weak hook dies; tip must earn the watch first. |
-| @loganforsyth | 0–3 | Repeated "Breaking:" with no actionable payoff | Manufactured urgency without a viewer-action flops. |
+### 5. Comment-Keyword CTA (caption layer)
+180 reels, wins 1.6× as often as it flops. **Not a hook** — a CTA that rides on top of one. Put it in the
+caption + on-screen text, never burn the spoken open on it.
+- 4.69M @devinjatho [DXsJznEEsHp](https://www.instagram.com/reel/DXsJznEEsHp/) (strip-back spoken hook + "Comment GEAR" caption).
 
 ---
 
-## Patterns on Watch
-| Pattern | Status | What Would Confirm It |
-|---------|--------|----------------------|
-| Lead-magnet CTA fatigue | Watch | If comment-keyword posts decline over the next scrape, the mechanic is saturating. |
-| AI-money angle | Rising | More creators hitting >3× median with AI-outcome hooks. |
-| Trial reels / new-feature content | Rising | Sustained hits when IG ships features. |
+## Technical specs (from the winners)
+| Spec | Recommendation | Basis |
+|------|---------------|-------|
+| Duration | 15–40s | Winner durations cluster here; time-box hooks explicitly promise speed |
+| Hook window | First 1–2 spoken seconds | The spoken open is the stop-scroll; don't waste it on the CTA |
+| Save prompt | Add to any tactical/list reel | Save-command pattern = 46% win |
+| Numbers | Attach to negative commands | 28%→46% win lift |
+| CTA | Comment-keyword in caption only | 180-reel proven layer; dies on weak hooks |
+| Share rate | Optimize for >1.5% | Cleanest cross-account signal; feature-news + outcome hooks lead |
 
 ---
 
-## Pipeline Issues to Fix Before Next Update
-1. ~~No spoken transcripts~~ ✅ **DONE (v2)** — 708/713 transcribed via Whisper ($0 RapidAPI; CDN URLs from cache).
-2. **@iamaayushswamy partial** — scrape cut at budget cap; re-run for full 90d when quota refreshes.
-3. **Low-median accounts (@loganforsyth, @iamaayushswamy)** distort multipliers — weight by share rate instead.
-4. **No comment themes** — /postcomments/ not called (budget). Add when quota refreshes.
-5. **5 reels have no spoken audio** (music-only) — excluded from spoken-hook analysis.
+## Audience psychology (evidenced)
+This audience is **outcome-selfish and tactic-hungry.** Patterns that hand them a fast, specific lever for
+*their own* account win (outcome+timebox, save-this, never-do-X+number). Patterns about the *creator*
+(personal flex: 68% flop) or vague feelings (generic motivation: 5% win) fail. Every winning hook answers
+"what do I do differently on my next reel, and how fast?"
 
 ---
 
-*Next review: when budget refreshes or a new pattern appears in 3+ creators. Playbook becomes high-confidence at full-transcript + comment data.*
+## Pipeline / data notes
+- ✅ 708/713 spoken transcripts (Whisper). 5 music-only excluded.
+- ⚠️ @iamaayushswamy partial (budget cap) + 2 low-median accounts → **share rate** is the safer signal there.
+- ❌ No comment-theme data (budget). Add `/postcomments/` when quota refreshes.
+- 🔁 Two near-duplicate winners inflate some single-creator patterns (e.g. devinjatho's repeated lines) —
+  counted honestly and flagged, not promoted to "universal."
+
+*All figures reproducible: `python research/pattern_analysis.py` (0 API calls).*

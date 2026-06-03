@@ -1,72 +1,68 @@
 # What Fails — Jacky Niche Playbook
-*Last updated: 2026-06-03*
+*Last updated: 2026-06-03 (v3 — every anti-pattern measured across all 712 reels)*
 
-Anti-patterns from the flop set (reels under 0.5× their creator's median). Run every piece against
-this before posting. *v2: now backed by real spoken transcripts (Whisper); no comment data.*
-
-## 🔑 v2 spoken-audio findings (caption analysis missed these)
-
-| Finding | What the audio revealed | Lesson |
-|---------|------------------------|--------|
-| **Non-English reposts** | @alinamerkelcoach's worst flops (190–510v) had **Korean spoken audio** under English captions — recycled foreign-language winners. [DV1XgBTjU49](https://www.instagram.com/reel/DV1XgBTjU49/) | Don't repost another language's winner to an English audience. |
-| **CTA-in-the-spoken-open** | @sam.gaudet "Comment 'Claude'" flop opened spoken with *"Editing videos. CapCut with AI captions."* — no hook. 160v. | The spoken open must hook; the caption carries the CTA. Never burn the open on the CTA. |
-| **0-view ≠ bad hook** | Several 0–3v flops have strong spoken hooks (e.g. *"Why is it so hard to write a good hook? Good thing I have five that rarely fail"* → 0v). | These look like **distribution failures (shadowban/new-account window)**, not content failures. Don't over-learn from true zeros — weight flops with a real view base. |
-| **Repost fatigue confirmed** | @devinjatho's flopped reels are **verbatim re-cuts** of his 1M+ winners (same spoken hook, e.g. the "slapped their dick on the table" line at 322v vs 521K). | The hook isn't the problem — repeating it is. Rotate, don't recycle. |
+Patterns ranked by how *consistently* they fail (high flop-rate + low win-rate across a real sample), not
+by one bad example. Winner/mid/flop vs each account's own median. Full evidence:
+[`research/pattern-report.md`](../research/pattern-report.md).
 
 ---
 
-## Bad Hooks
+## The two confirmed killers
 
-| Anti-Hook | Why It Fails | Evidence |
-|-----------|-------------|----------|
-| **Personal income/lifestyle flex** | Audience is outcome-selfish — they want *their* result, not your highlight reel. | @alinamerkelcoach "I make six figures at 26" → 208v vs 1.34M tactical winner. [DV1XgBTjU49](https://www.instagram.com/reel/DV1XgBTjU49/) |
-| **Generic motivation** | No tactic to save or act on. | @devinjatho "stop consuming, start creating" → 194v. [DYPdLGBSCOF](https://www.instagram.com/reel/DYPdLGBSCOF/) |
-| **Vague "Breaking news"** | Urgency with no viewer-action payoff. | @loganforsyth repeated "Breaking:" → 0–3v. [DX-uO7-RvXc](https://www.instagram.com/reel/DX-uO7-RvXc/) |
-| **CTA-first / weak-hook lead magnet** | The gift only works *after* value earns the watch. | @sam.gaudet "Comment 'hook' for my hook bank" → 153v. [DVmsSneEqPl](https://www.instagram.com/reel/DVmsSneEqPl/) |
-| **Abstract "X is a scam" with no fix** | Contrarian without a concrete alternative. | @iamaayushswamy "Crazy video editing is one of the biggest scams" → 1v. [DWPPCyHjI6V](https://www.instagram.com/reel/DWPPCyHjI6V/) |
+### 1. Personal Flex / Journey — **N=16 · 6% win · 68% flop · median 0.31×** — WORST PATTERN
+Talking about *your* income/lifestyle/journey. The single most reliable way to flop: more than two-thirds
+of these reels fell below half their creator's median. The audience is outcome-selfish — they don't reward
+your success, only their transferable result.
+**Evidence (all flops):**
+- 208v · @alinamerkelcoach [DV1XgBTjU49](https://www.instagram.com/reel/DV1XgBTjU49/) — caption "I make six figures at 26"; spoken audio is a **Korean repost** (wrong-language recycled content).
+- 190v · @alinamerkelcoach [DV1qrOnjVr1](https://www.instagram.com/reel/DV1qrOnjVr1/) — "at 15 I moved to another country alone…"
+- 345v · @alinamerkelcoach [DV4UQiKjX9i](https://www.instagram.com/reel/DV4UQiKjX9i/)
+- The rare exceptions only worked when wrapped in a *tactic* ("I'm a 6-fig owner, steal this template" — the template, not the flex, carried it).
 
----
-
-## Dead / Weak Formats
-
-| Format | Status | Why | Evidence |
-|--------|--------|-----|----------|
-| **Personal-journey monologue** | Dead | No transferable tactic. | @alinamerkelcoach journey posts, 190–510v |
-| **Reposted winner (back-to-back)** | Self-defeating | Algorithm + audience fatigue. | @devinjatho "Comment GEAR" repost → 194–322v after the 4.7M original |
-| **Pure motivational one-liner** | Dead | Oversaturated, unsaveable. | @loganforsyth, @devinjatho flops |
-| **"Weekly diary / episode #N"** | Weak | Vlog-style updates underperform tactical posts in this niche. | @personalbrandlaunch "Weekly Diary Ep#16" → 29,845v (0.4× median) |
-
----
-
-## Wrong Triggers
-
-| Trigger | Why It Backfires |
-|---------|-----------------|
-| **Self-aggrandizement** | Reads as bragging; audience wants *their* win. |
-| **Vague aspiration without a path** | "You can do it too" with no steps = background noise. |
-| **Manufactured urgency, no payoff** | "Breaking" that doesn't change the viewer's next action. |
+### 2. Generic Motivation — **N=18 · 5% win · 44% flop · median 408 views**
+"Stop consuming start creating", "ready is a decision", "mindset/discipline" with no tactic. Lowest win-rate
+in the dataset. Nothing to save, nothing to act on.
+**Evidence:**
+- 194v · @devinjatho [DYPdLGBSCOF](https://www.instagram.com/reel/DYPdLGBSCOF/) — caption "stop consuming, start creating"; spoken open is unrelated filler.
+- 2v · @loganforsyth [DXqYX37jQ3f](https://www.instagram.com/reel/DXqYX37jQ3f/) — "ready is not a feeling but a decision" (music-only).
+- @loganforsyth's mindset one-liners cluster at the bottom.
 
 ---
 
-## Technical Red Flags
-- **CTA before value** — putting "comment WORD" on a post with no real tactic first.
-- **Reposting too soon** — recycle a winner only after a long gap and ideally a re-cut.
-- **No "save" / no on-screen number** on a list post — kills the save signal that drives reach.
-- **Burying the answer** — open-loop hooks that don't resolve quickly lose the watch.
+## Volatile / unreliable (not a clean fail, but don't rely on it)
+
+### Shock / Profanity Interrupt — **N=48 · 27% win · 43% flop** — DOWNGRADED from v2
+I previously called this a top pattern off one 3.44%-share hit. The full data corrects that: it **flops more
+often than it wins** and has the lowest median share rate (0.17%). It can spike for a brash creator on a big
+news beat, but the median reel does 0.90× median. **Use sparingly; never as the default.**
+- Spike: 629,687v @devinjatho [DXo0c5bkn53](https://www.instagram.com/reel/DXo0c5bkn53/).
+- But 43% of its 48 reels flopped — high variance, not a reliable winner.
 
 ---
 
-## Audience Turn-offs
-1. Being sold the creator's success instead of a tool they can use.
-2. Empty motivation they've seen a thousand times.
-3. Hype with no substance ("biggest scam", "Breaking") that doesn't pay off.
+## Execution failures that sink otherwise-good patterns
+
+| Failure | Evidence | Lesson |
+|---------|----------|--------|
+| **CTA in the spoken open** | 153v @sam.gaudet [DVmsSneEqPl](https://www.instagram.com/reel/DVmsSneEqPl/) — opened spoken with "Comment 'hook'", no actual hook | The spoken open must hook; the caption carries the CTA. |
+| **Bare negative command, no number/payoff** | 283v @sam.gaudet [DWPGIrnyDv1](https://www.instagram.com/reel/DWPGIrnyDv1/) — "No setting will make you go viral" | "Never/Stop" needs a number + a fix (lifts win 28%→46%). |
+| **Reposting a winner unchanged** | 322v @devinjatho [DVtNsdyjRJf](https://www.instagram.com/reel/DVtNsdyjRJf/) — verbatim re-cut of his 521K winner | The hook isn't the problem; repeating it is. Rotate, don't recycle. |
+| **Foreign-language repost to EN audience** | 208v @alinamerkelcoach [DV1XgBTjU49](https://www.instagram.com/reel/DV1XgBTjU49/) — Korean audio, English caption | Don't recycle another language's winner. |
+| **Vague items under a good structure** | numbered-list flop tail (24% flop) | A number/format is not a hook — the items must be specific. |
 
 ---
 
-## The One-Line Test
-Before posting, answer: **"What does the viewer DO differently on their next reel because of this?"**
-If there's no concrete, account-level action — it's a flop risk. Every confirmed winner passes this test.
+## ⚠️ Don't over-learn from true zeros
+Several 0–3 view reels have **strong hooks** (e.g. @iamaayushswamy [DWHac7qDAVd](https://www.instagram.com/reel/DWHac7qDAVd/) — "Why is it so hard to write a good hook? Good thing I have five that rarely fail" → 0v). These read like
+**distribution failures (shadowban / brand-new-account window)**, not content failures. When judging flops,
+**weight reels with a real view base** (hundreds–thousands) over true zeros — otherwise you'll "learn" the
+wrong lesson and kill a hook that actually works.
 
 ---
 
-*Next review: confirm flop patterns against full transcripts + comment sentiment when budget allows.*
+## The one-line test
+Before posting: **"What does the viewer DO differently on their next reel because of this — and how fast?"**
+If there's no concrete, account-level, fast action, it's a flop risk. Every confirmed winner passes this;
+every confirmed killer fails it.
+
+*All figures reproducible: `python research/pattern_analysis.py` (0 API calls).*

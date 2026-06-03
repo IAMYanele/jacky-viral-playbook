@@ -1,94 +1,80 @@
 # formats.md — Jacky Niche Format Playbook
-*Last updated: 2026-06-03*
+*Last updated: 2026-06-03 (v3 — measured across all 712 reels)*
 
-Format rankings for the content/marketing-for-business-owners niche. *Caveat: 713 reels, captions +
-metrics only, @iamaayushswamy partial. Share rate (shares/views) is the primary cross-account signal
-because view scales differ ~280× between accounts.*
+Format/structure patterns ranked by **consistency of winning**, not by their single biggest hit. Each is
+measured the same way as hooks: win-rate / flop-rate / median-multiple across all reels that used it, vs
+each account's own median. Full evidence: [`research/pattern-report.md`](../research/pattern-report.md).
 
----
-
-### 1. Screen-Record Tactical Walkthrough — **Peak**
-
-**Description:** Narrate over a screen recording of the actual setting/feature/tool being used. The
-proof is on screen.
-**Performance:** Top tier — drives the highest share rates (up to 3.44%).
-**Lifecycle:** Peak. Most-used winning format across @devinjatho, @personalbrandlaunch, @iamaayushswamy.
-**Optimal specs:** 15–40s; numbered steps; "save this" + comment-keyword CTA.
-**Best triggers:** control/agency, reciprocity.
-**When to use:** any "here's the exact setting/fix/tool" content.
-**When NOT to use:** abstract/mindset topics with nothing to show.
-> Evidence: @devinjatho "Fix These 5 Settings" — 1.28M, 2.75% share — [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/)
+> **Note on method:** "format" here is inferred from the spoken hook + caption structure (the API doesn't
+> return shot-level data). So these are **structural patterns**, measured rigorously, but coarser than the
+> hook analysis in `hooks.md`. Share rate (shares/views) is the cleanest cross-account quality signal.
 
 ---
 
-### 2. Talking Head + Bold On-Screen Tactic — **Peak**
+## Format ranking (by measured consistency)
 
-**Description:** Creator on camera delivering one specific tip, with large on-screen text stating the
-tactic/number.
-**Performance:** Top tier; reliable across @sam.gaudet, @alinamerkelcoach, @bhavinipanjwanii.
-**Lifecycle:** Peak.
-**Optimal specs:** 15–30s; hook + payoff; comment-keyword CTA in caption + on screen.
-**Best triggers:** curiosity, aspiration+specificity.
-> Evidence: @sam.gaudet "5 steps to make $1M with AI" — 2.22M, 1.91% share — [DV3n5CvEjNQ](https://www.instagram.com/reel/DV3n5CvEjNQ/)
+| Tier | Format / structure | N | Creators | Win% | Flop% | Median mult | Read |
+|------|--------------------|---|----------|------|-------|-------------|------|
+| **S** | **Outcome + time-boxed tutorial** ("[result] in [time]") | 16 | 4 | 56% | 6% | 4.06× | Best ratio in the set — do this most |
+| **A** | **Save-prompted tactical tip** ("save this" + a fix) | 15 | 4 | 46% | 20% | 2.22× | Reliable; drives the save signal |
+| **A** | **Numbered-fix walkthrough** (negative cmd + number) | 13 | 4 | 46% | 30% | 1.72× | "Never post until you fix these 5…" |
+| **B+** | **Rhetorical-question explainer** | 123 | 8 | 25% | 20% | 1.04× | Universal default — every creator |
+| **B** | **Numbered list / "N things"** | 57 | 7 | 26% | 24% | 0.86× | Broad, average; items must be specific |
+| **B** | **A/B comparison** ("which did better?") | 64 | 5 | 23% | 21% | 1.00× | Reliable-average; guess-comment driver |
+| **C↑** | **Feature/update breakdown** | 11 | 3 | 66% | 25% | high | ⚠️ Promising — tiny N, time-sensitive |
+| **C↓** | **Shock/profanity reaction** | 48 | 6 | 27% | 43% | 0.90× | ⚠️ Volatile — flops as often as wins |
 
----
-
-### 3. Lead-Magnet Tip (format-agnostic CTA layer) — **Peak (watch for fatigue)**
-
-**Description:** Any tactical format + "comment WORD for the resource." Less a format than a CTA layer
-that supercharges the formats above.
-**Performance:** The single most repeated winner pattern.
-**Lifecycle:** Peak, but **monitor for keyword-CTA saturation** — when every creator does it, novelty fades.
-**When NOT to use:** on a post with no real tactic (CTA-first flops).
-> Evidence: @devinjatho "Comment GEAR" — 4.69M — [DXsJznEEsHp](https://www.instagram.com/reel/DXsJznEEsHp/)
+⚠️ **Promising-not-proven** flagged explicitly so a single hit doesn't get mistaken for a proven format.
 
 ---
 
-### 4. A/B Comparison / "Which did better?" — **Stable**
+## The formats, with evidence
 
-**Description:** Show two options, ask the viewer to guess which won, reveal at the end.
-**Performance:** Reliable mid-to-high; strong comment driver.
-**Lifecycle:** Stable.
-**Best triggers:** curiosity, participation.
-> Evidence: @personalbrandlaunch "Which video got more views, A or B?" — 559K, 2.09% share — [DWE72LsIGQy](https://www.instagram.com/reel/DWE72LsIGQy/)
+### S — Outcome + Time-Boxed Tutorial
+The most consistent format. Narrate a concrete result inside an explicit time/effort frame; works on tiny
+and mid accounts alike.
+- 220,761v @iamaayushswamy [DXPlUuDDNTk](https://www.instagram.com/reel/DXPlUuDDNTk/) · 35,590v @realskytan [DYOLB7BCSC3](https://www.instagram.com/reel/DYOLB7BCSC3/) · 133,638v @personalbrandlaunch [DX9Sj-HO89h](https://www.instagram.com/reel/DX9Sj-HO89h/).
 
----
+### A — Save-Prompted Tactical Tip
+A specific fix + an explicit "save this." 46% win across 4 creators.
+- 1,278,571v @devinjatho [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/) · 768,857v @bhavinipanjwanii [DYRa7qQqtSc](https://www.instagram.com/reel/DYRa7qQqtSc/) · 131,109v @alinamerkelcoach [DXci7n2tu8x](https://www.instagram.com/reel/DXci7n2tu8x/).
 
-### 5. Feature/Update News Breakdown — **Rising (time-sensitive)**
+### A — Numbered-Fix Walkthrough (negative command + number)
+"Never post until you fix these N settings." The number + prohibition is what lifts it (46% win vs 28% for a
+bare negative command).
+- 433,179–1,278,571v @devinjatho ([DX0MuRvSFV2](https://www.instagram.com/reel/DX0MuRvSFV2/), [DX0M0rOyEwI](https://www.instagram.com/reel/DX0M0rOyEwI/)) · 21,370v @iamaayushswamy [DW5DTTQDHWX](https://www.instagram.com/reel/DW5DTTQDHWX/).
 
-**Description:** "Instagram just dropped X — here's how to use it." Rides each platform release.
-**Performance:** Recurring big hits.
-**Lifecycle:** Rising; spikes around platform releases, decays as the feature ages.
-> Evidence: @iamaayushswamy "instagram dropped another massive new update" — 121K — [DWXjctoiQ-W](https://www.instagram.com/reel/DWXjctoiQ-W/)
+### B+ — Rhetorical-Question Explainer
+The safe default; used by all 8 creators (N=123). Net-positive but average — specificity of the question
+decides it.
+- 2,215,348v @sam.gaudet [DV3n5CvEjNQ](https://www.instagram.com/reel/DV3n5CvEjNQ/) · 304,477v @personalbrandlaunch [DVq-bkuAEPw](https://www.instagram.com/reel/DVq-bkuAEPw/).
 
----
+### B — Numbered List & A/B Comparison
+Both broad and reliable-average (≈23–26% win, ≈21–24% flop). Use them, but they don't carry a reel on their
+own — pair with a strong hook (#S/#A above).
+- List win: 304,477v @personalbrandlaunch [DVq-bkuAEPw](https://www.instagram.com/reel/DVq-bkuAEPw/). A/B win: 558,649v @personalbrandlaunch [DWE72LsIGQy](https://www.instagram.com/reel/DWE72LsIGQy/); A/B flop (same format, small acct): 745v @realskytan [DY27u2qJVNK](https://www.instagram.com/reel/DY27u2qJVNK/).
 
-### 6. List / "N Types of…" — **Strong**
-
-**Description:** "5 main types of content you should post." Finite, organized, save-able.
-**Performance:** Strong, evergreen.
-> Evidence: @personalbrandlaunch "5 Main Types of Content" — 304K, 2.91% share — [DVq-bkuAEPw](https://www.instagram.com/reel/DVq-bkuAEPw/)
-
----
-
-### Declining / Dead
-
-| Format | Status | Note |
-|--------|--------|------|
-| Personal-journey monologue | Declining | Flops vs tactical content |
-| Weekly diary / vlog update | Weak | @personalbrandlaunch "Weekly Diary" underperforms |
-| Reposted winner (no re-cut) | Self-defeating | Fatigue (@devinjatho reposts) |
-| Generic motivational one-liner | Dead | No save signal |
+### C — Feature-News & Shock (handle with care)
+- **Feature-news (66% win, N=11):** promising and high-share, but small + time-locked to real IG releases. Post fast when a feature ships; don't bank on it as a staple.
+- **Shock/profanity (43% flop):** volatile, brand-dependent. Spikes occasionally (629,687v @devinjatho [DXo0c5bkn53](https://www.instagram.com/reel/DXo0c5bkn53/)) but the median reel underperforms.
 
 ---
 
-## Format Selection Cheat-Sheet
-- Got a **setting/feature/tool** to show → **screen-record walkthrough**.
-- Got **one strong tip** → **talking head + bold on-screen text**.
-- Got a **deeper resource** → layer **comment-keyword lead magnet** on top.
-- Got **two approaches** → **A/B "which did better?"**.
-- Platform **shipped something** → **feature-update breakdown** (post fast).
+## Declining / avoid (measured)
+| Format | Win% | Flop% | Note |
+|--------|------|-------|------|
+| Personal-journey / flex | 6% | 68% | Worst pattern in the set |
+| Generic motivation one-liner | 5% | 44% | No tactic = no save |
+| Reposted winner (unchanged) | — | — | Repost fatigue: same hook, fraction of the views |
 
 ---
 
-*Next review: re-rank with full-transcript pacing data + a refreshed scrape when budget allows.*
+## Format selection cheat-sheet (data-backed)
+- A **result you can time-box** → **Outcome + Time-Box** (S, 56% win).
+- A **fix to show** → **Save-prompted / Numbered-fix walkthrough** (A, 46% win).
+- **Everyday content** → **Rhetorical-question explainer** (B+, universal).
+- **Two options to compare** → **A/B** (B, reliable).
+- **IG just shipped a feature** → **Feature-news**, posted fast (C↑, promising).
+- Always: strong spoken hook + comment-keyword CTA in the **caption**, not the spoken open.
+
+*All figures reproducible: `python research/pattern_analysis.py` (0 API calls).*
