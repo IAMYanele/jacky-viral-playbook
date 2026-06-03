@@ -1,0 +1,18 @@
+# Secrets — never commit
+.env
+.env.*
+*config.json
+*credentials*
+*secret*
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Raw scrape cache / transcripts (large, regenerable; not part of the published artifact)
+.raw/
+transcripts/
+*_callcount.json
